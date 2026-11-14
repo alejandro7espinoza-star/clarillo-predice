@@ -21,5 +21,10 @@ DGA (estación Pirque, vía CR2), NASA MODIS (NDVI), SRTM (relieve) y OpenStreet
 
 ## Uso
 
-Abrir el notebook en Google Colab y ejecutar todo. Los datos se cargan desde este repositorio.
-El boletín se redacta con IA generativa: con Gemini si hay una clave `GEMINI_API_KEY` en los Secrets de Colab, o si no con el modelo de código abierto Qwen2.5-1.5B-Instruct, que corre en Colab sin clave.
+1. Abrir el notebook en Google Colab.
+2. Activar la GPU: **Entorno de ejecución → Cambiar tipo de entorno → T4 GPU → Guardar** (en inglés: **Runtime → Change runtime type → T4 GPU → Save**).
+3. **Entorno de ejecución → Ejecutar todo** (**Runtime → Run all**).
+4. Al final, el notebook pide el correo de destino del boletín. Si se deja vacío, el boletín solo se guarda como HTML.
+
+El boletín se redacta con Qwen2.5, un modelo de IA generativa de código abierto que corre en Colab sin clave.
+Para enviar el correo se usa una cuenta de Gmail con contraseña de aplicación (ver sección 7.1 del notebook).
