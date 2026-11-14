@@ -1,0 +1,551 @@
+Received: from SJ0PR17MB4302.namprd17.prod.outlook.com (2603:10b6:a03:296::12)
+ by DS0PR17MB6773.namprd17.prod.outlook.com with HTTPS; Sat, 14 Nov 2026
+ 14:45:49 +0000
+Received: from BN0PR04CA0181.namprd04.prod.outlook.com (2603:10b6:408:e9::6)
+ by SJ0PR17MB4302.namprd17.prod.outlook.com (2603:10b6:a03:296::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.615.10; Sat, 14 Nov
+ 2026 14:45:47 +0000
+Received: from BN3PEPF00022BCA.namprd03.prod.outlook.com
+ (2603:10b6:408:e9:cafe::97) by BN0PR04CA0181.outlook.office365.com
+ (2603:10b6:408:e9::6) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.615.10 via Frontend Transport; Sat,
+ 14 Nov 2026 14:45:47 +0000
+Authentication-Results: mx.microsoft.com 1; spf=pass (sender IP is
+ 2a00:1450:4864:20::629) smtp.mailfrom=gmail.com; dkim=pass (signature was
+ verified) header.d=gmail.com;dmarc=pass action=none
+ header.from=gmail.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 2a00:1450:4864:20::629 as permitted sender) receiver=protection.outlook.com;
+ client-ip=2a00:1450:4864:20::629; helo=mail-ej1-x629.google.com; pr=C
+Received: from mail-ej1-x629.google.com (2a00:1450:4864:20::629) by
+ BN3PEPF00022BCA.mail.protection.outlook.com (2603:10b6:40f:fc02::a87) with
+ Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id
+ 15.21.615.4 via Frontend Transport; Sat, 14 Nov 2026 14:45:47 +0000
+Received: by mail-ej1-x629.google.com with SMTP id a640c23a62f3a-c5067a2411bso331086666b.2
+        for <alejandro.espinozae@correoaiep.cl>; Sat, 14 Nov 2026 06:45:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20260707; t=1794667546; x=1795272346; darn=correoaiep.cl;
+        h=content-type:mime-version:to:from:subject:date:message-id:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=NMHRRopO7OHo0Q+t+01vXkHx/Qkt38CPvndZ9eQFmNM=;
+        b=LYgew+cIGG6ihACx6gmiZ8Pe/xn6KczdigGvrH9FKk0s6A5GQZB60evY7RnPHGTCNR
+         Ied+6Rlg/J0tQraGueGwVSymCBcO8MocnVRzLc71UEoz/H/Dp5a6NE4wU58GLGOBNj68
+         ullEZvdZLqgT5UT72O0GcY5llAG3f2X02m1gHI/yJ/Nd42950goVdTSyXY9tCjVkFcnj
+         b6F+phRZynsL3zY1frLwMHlO+x9Oo6as0MadO5jouPI1GidcjvI0sHuORdlEasW9KLir
+         LgMMYiq021dB38Bl5h+08LV8JMbb7tMbeq0qo+snf5HhJg7hOo3JMHxAiM1Ji31Pxigw
+         Ogqg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1794667546; x=1795272346;
+        h=content-type:mime-version:to:from:subject:date:message-id:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=NMHRRopO7OHo0Q+t+01vXkHx/Qkt38CPvndZ9eQFmNM=;
+        b=Q9QWKDZ4SmtI72DmD9QhZPQQfF524tCB5Ii6o1AZnq15+lBvOoPygTvaK79kfKq4OA
+         lXSEPJRf5+o+p+p1JEEjeAdAnZ2Uu3yPdAJVUFQ9HQ+52tMbs7SAii9QyzjyIn/pjwMQ
+         dRSQL55y440mhN0M6w9nnXti04/uvO75IzcbMaeskD2FGBygdlCS79/NaukqGargrZQb
+         imkE71hG1+rrYte7mttxoDJW/hplsKZXtG16kH+GM7U1iQ38uM9DuFGmGxfotLBtPdxL
+         B/FXAzgY8b0evQJ9E5XSOZHzW39vB5AlNDlRzW8tUtSc4KtB9pwgfNn3/ZD6C9xMJuxm
+         at/Q==
+X-Gm-Message-State: APuU4Z9jeN9fOYK5iSOklFu4ZTsGqb2UEsXAHbST1zPvcPXgRC9i6Xxu
+	4SGdXzvJpbRk0+Wj4W2sxa8VZ+sUmEClFSG/GbGuDU7q4lvL+z4+qsFbEB8BBsJEizE=
+X-Gm-Gg: AYBFou0pfidcALS985qd/c5NXov1De9XzN4YXsZITvNYygSKnu/SJ39ZTaR/lwR2RDn
+	5tAlkA9wR6kQ1fF14Zq9pDAXZSgx2PTMlq9K9c6iGnjl2jKUpbQT6j0a/gWBhLuJO0SLSL4vMk+
+	/Rd2KZW7dmFx2iqQJdHIh4BG8OSQW7FlDnzQeGE53M1K6gyRUz5gPrRAFtyvrsDNfgk8Io8lv5X
+	kOgQ5xagF4H4ojIn/TypA0Lan/Z2Ei52N14rUgkM27OFPVMFWpHJD5SwsHoyRRebAeYsSDg/FIn
+	cxEOQouh06z7oOWgh+XvU9B4is89DbMf7Vjv7oYldg6CNroXZHV9v6oU1+EsALqesYtK2i8vzfw
+	8hf4tprK1lLdj0YVQopImW6NxtvknhyyLraKYWzWC0JR1TQok7K8hTlOia4Mqj/oPLc/wxqEETK
+	MznX3cdQ+28BU/RTCTqsVJf6fbEV7bsruCplth4WR479r5z4BsK+0awR7Zh9/lgIwJrNQp0MlZX
+	lK/1OAYSTGSJvhBR4VVoIzGSepfMUbp+1biE8L3jlOIxktS8GH/DIw5nVlVu0/PlWYsCk/0HU4b
+	Va/TTF+PqfFvaFv/vxSLJGXlKiSChRKaCywqh+IBFBurEQhtJ+kvsmXKXcDB3cHo0UBH
+X-Received: by 2002:a17:906:7315:b0:c42:fc8b:6c7a with SMTP id a640c23a62f3a-c5096550449mr491874866b.41.1794667545730;
+        Sat, 14 Nov 2026 06:45:45 -0800 (PST)
+Return-Path: alejandro.7espinoza@gmail.com
+Received: from [172.28.0.12] (147.71.187.34.bc.googleusercontent.com. [34.187.71.147])
+        by smtp.gmail.com with ESMTPSA id a640c23a62f3a-c5095a5b93csm218712266b.5.2026.11.14.06.45.44
+        for <alejandro.espinozae@correoaiep.cl>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 14 Nov 2026 06:45:44 -0800 (PST)
+Message-ID: <6af87418.fe1a407b.6861d.2f2c@mx.google.com>
+Date: Sat, 14 Nov 2026 06:45:44 -0800 (PST)
+Subject: =?utf-8?q?Bolet=C3=ADn?= de riesgo de incendio - semana del
+ 14-11-2026
+From: alejandro.7espinoza@gmail.com
+To: alejandro.espinozae@correoaiep.cl
+Content-Type: multipart/mixed; boundary="===============1914028929606233813=="
+X-MS-Exchange-Organization-ExpirationStartTime: 14 Nov 2026 22:09:13.9959
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 740bfdbd-e7d9-4409-25df-08df425df81c
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 7a01bc40-33fa-4cf5-9c99-c1cc84a7f1b7:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN3PEPF00022BCA:EE_|SJ0PR17MB4302:EE_|DS0PR17MB6773:EE_
+X-MS-Exchange-Organization-AuthSource: BN3PEPF00022BCA.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 740bfdbd-e7d9-4409-25df-08df425df81c
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;ARA:13230040|6049299003|43022699015|260918215300599003|260918224100599003|7093399015|2613699012|10067099003|56012099006|5063699009|261026121527099003|261026140227099003|261028144727099003|261022105027099003|261022075727099003|261021123027099003|261021121427099003|261102123227099003|261009223027099003|18002099003|16102099003|19002099009|6133799003|13003099007|4053099003|8096899003;
+X-Forefront-Antispam-Report: CIP:2a00:1450:4864:20::629;CTRY:;LANG:es;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-ej1-x629.google.com;PTR:mail-ej1-x629.google.com;CAT:NONE;SFS:(13230040)(6049299003)(43022699015)(260918215300599003)(260918224100599003)(7093399015)(2613699012)(10067099003)(56012099006)(5063699009)(261026121527099003)(261026140227099003)(261028144727099003)(261022105027099003)(261022075727099003)(261021123027099003)(261021121427099003)(261102123227099003)(261009223027099003)(18002099003)(16102099003)(19002099009)(6133799003)(13003099007)(4053099003)(8096899003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 14 Nov 2026 14:45:47.1107
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 740bfdbd-e7d9-4409-25df-08df425df81c
+X-MS-Exchange-CrossTenant-Id: 7a01bc40-33fa-4cf5-9c99-c1cc84a7f1b7
+X-MS-Exchange-CrossTenant-AuthSource: BN3PEPF00022BCA.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR17MB4302
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.5447810
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0615.005
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(4710232)(4712192)(4999285)(920097)(930201)(20251009284)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bFN3V0pDVEZwTHp6MVl4ejQrdHhFeVRhZld4dVpxSDNMODNoOW9ENTlUVFZW?=
+ =?utf-8?B?OXdHUVZENlpoWGplbHZBU2NtQWNveTZXK3AzazFDVWFYcFJUeDVyRUtCY2Z6?=
+ =?utf-8?B?a0NmcW5jazkrVGpwZG83cUVlQ0YyK00wZTJvUlhwdjFseFVTUDdLbXArdnZr?=
+ =?utf-8?B?N0tGVGRsTkp3SlVyK0x3LzFaOW1jU3M4VTlLclgvbm4xV3RKUlY0R0xoTE5M?=
+ =?utf-8?B?cEY3NjhWNzJJVTdpUTZPZnQvSHpKbUNIOEZJc3hTcXRrV2hmWFhKYU8rWEdF?=
+ =?utf-8?B?T04yMFdnN05ITzVpY2RvM3JrQlo2bTlhdjRyUzFMVlhyZG16V0szRUxWWUpm?=
+ =?utf-8?B?VXd5NEE5SnREb2xXTUd1cVdkZ0ZVVjdBMzNOV052YThjTW81QXVPNFg0cjNO?=
+ =?utf-8?B?QXUxNmRGMmNvMkZyUHR4SEZnVlkrQ1VhQ2VQRzJrY3FHM1prM0d1VkIzVExX?=
+ =?utf-8?B?b29zOXdpb0V0ZEs0NnJzUXg1OUIvclBHUUxWVXFXb25nSVRwYjQ0ZmRzTTVX?=
+ =?utf-8?B?ZTkzVDBFaUVIVy94K0VQUlVNbDV5eG5PZFl6NytrajBhdUpsbXhLbFRzL0h2?=
+ =?utf-8?B?OTBlZUhSK3lEZjBRSjIvcDVlaU1tTUI5S3RUMDJxMk5ZcHBNbDZ5dlBycXRp?=
+ =?utf-8?B?NEN6S053WlZtd3ZrVGNoaGg0KzQwSWlmRTZJc3ZGUWVlbkxyQ0VrcXJmQ1k1?=
+ =?utf-8?B?QitCVkI5VUZDT1MraFNhS2VEbzlKK0UvcThaeGt6aXlnc1JBZGFEcnBiaWFv?=
+ =?utf-8?B?alJSYWdYbWJCMEJNbDBoWEtrOHJrQmVkdFVSVk9VbVdnYnp3MVl2SmRGSElz?=
+ =?utf-8?B?ZkpKdkk2dWoyd3l5L1hRQnd4WkUrRnV5aXhaU3ZRU3gzYVM1d0dudmoxMGow?=
+ =?utf-8?B?TDlSMXdCVkozSEVoaTdkNVJtRXVUV3BKR1lJMlRncC9FckVaLzlDeGFKMkVR?=
+ =?utf-8?B?TmdNRnh4R0VINU9RRmdxRFZzUWw5SEd0ZVVNendYOGdaeEwveU5sWjVSU0w3?=
+ =?utf-8?B?ZkFNU3h3QXhSMHl5VTAvZmprdFpWeHRnWTBqZitRZTI5djBTV3RUWXdQdk92?=
+ =?utf-8?B?ZTFoTVMxb2p4SXZFbElWMjZFM0hWQzI2THpacU13KzFoSms5ckxwKzUrRFdI?=
+ =?utf-8?B?UXc4TXp4TWtYVXlxZVBQZmxzdTNsSEd6eVpaalZkMS9Vd25pVDBxVzEvdllB?=
+ =?utf-8?B?ZjVOTTZkUm9BL3NYajFpSjErQWQybEcxSlo1K2kxc1RqTFZxYlQzaGpZWmJz?=
+ =?utf-8?B?cDVXaVJOZ2ZBMDhFTjNCVGRqSEJMQ0kzYjNkRlhmVUh3RHNwQnRBYlowaC9Z?=
+ =?utf-8?B?QXdpMTdXQ1dhaXJQczhyU3pIS0hQRktDOHM5MktYSTZ0Ti9TdkxUdzNqWk5W?=
+ =?utf-8?B?RjM5bE5kcVRNeEVYMnNrSis3YmJSR3U1RW11ZVlJVks0dG1PcTVEVWRaV0Rr?=
+ =?utf-8?B?N0grNGtteE5TMnY1RVVTdWJyUDV2Y1dVd3FnMjU5dXhvNGt0VTBTMUtPTC9h?=
+ =?utf-8?B?RXlMektyZXZISkx3U21teC9ORld0L2EwYStsUkRJQmNrYVhQN0FrNVRrOGxK?=
+ =?utf-8?B?cmlXeStIN0xqRVJ6MlQzYkhtSmlMYzNjTUxEdmw0VnVFT3Q1SkUzTlpMZjM4?=
+ =?utf-8?B?K2d0bjRBNmRkcXk2U0Ewb3JZSmJrb3dVWVpXOGttdGxLR2J6Z0RIeDJNazZp?=
+ =?utf-8?B?akk5clIwekF6MUUyNm9keXY0aFBRL09IbGhabklLUy9GTWlNNTY3OHpBMXh1?=
+ =?utf-8?B?bldXM3hBWVRUTUZYei9Rc2VGdWwvL2hDLzUySkxvNW5HOXZPSEJWZEJJMEQr?=
+ =?utf-8?B?QlMwSXREVkYyL3B1cmRQYSs2bVpGdy83WURUNXRhalVGMmh5aXVldVQ2eG93?=
+ =?utf-8?B?bW11azh6Qmk2S1N2b3JzQUFYMXExQ0R0cXVLN002QjJMdnRKbFMrOGV4YW9F?=
+ =?utf-8?B?Q1M3Q21ZcUM3QkFYdjE3dWlUZFlNRnpTS3VPaUczMGcxMjBrTm9MSXg0M0I1?=
+ =?utf-8?B?MWdXSUNKQlA1TnZ0cGZ2ODl3b3ZsaUhpL0tBZGJObDErRTNyTE1YZzdTSzIv?=
+ =?utf-8?B?SGxDV0RsT1kvM2RRNzNkUTVOTWxmRjY5M20xSENoRGx5V29zYmZhWHZLVjNm?=
+ =?utf-8?B?U2swMWU1ZGJOL1doRVBES1V3c2hyQXFtSU9wcVBpbXFSWmlMa0YyZlFkUkla?=
+ =?utf-8?B?Tm9WRktIRm1YZ2orK0VzWnRBLzU4Yjg0Q3crakVPZUZ6MDMrL0FZUmUxbkE3?=
+ =?utf-8?B?MXB1SWVXSFdKNDZsV3Y0OG1iZDJTNklFeGNiWmtPUGtOb2U5aEhuWStLTVU0?=
+ =?utf-8?B?emRudWt1TmM5T0EvUmtjK29NMW95cTZZU0w3K2NYSEdzQW1xb2RhK0s0TFNi?=
+ =?utf-8?B?a21BQjZ0eXo3NVFBalRkaVQwR0dqaUgzSE05YXNpVXpaQkJTRUUxdzFMcmhV?=
+ =?utf-8?B?eXpaZ2NIWDY4ZXE2L0syc05DRU00Tjg3aVFTV0RCaEQ5alB2cDRMbENSaXdG?=
+ =?utf-8?B?djdIdmY0ZnM2UVVSaDY1M1VsZXd6cWVWNkpMRHBIMjc1TU9uRzlGa0o2Tmxv?=
+ =?utf-8?B?K2pocWJWcmRSdGphMldGMzV2RW9Db3hkbkhOVTJTc1hUblUxcWl3V3NCRVA5?=
+ =?utf-8?B?TUtiKzhPOXFaSnRvdXovWnFEdzJQUFF4KyttTUEwZXh6ZlNJbFEyaWlNY2dk?=
+ =?utf-8?B?ZFhIUXNOUXVMRXkvSEFDRnZmZnR2Y2VRWG4xMDFXUHBxa2FsMDRkdmlkN1Zo?=
+ =?utf-8?B?TE9SeTNlQVZZZHRBSXFRQXJWdkh4V29DWGJHQWJTS2x4UDFxdnVsRExHZTlP?=
+ =?utf-8?B?NFBvcUNuM25LWjREZHZqcUJ5a080anpIT0YvVENJWWNHSXhSNU1PZXcrRDBN?=
+ =?utf-8?B?aDBoK2N1OHlEblJ1L2locFRpQ1hMRGlPTnpVaHl3MlQ3NE5sdU54ekUrSmRj?=
+ =?utf-8?B?T3ZqT2FDSThIRDI0c2ZJNUJ5M1NVclo4bTcwd2diYUwxQkJLbHB1UTBtR3NE?=
+ =?utf-8?B?ZE8wbmNDZGkwWjd4dzNsQzVsWlQ1ck5PVVF2TmpPeS82S2NBSnJUNzg2L1Ur?=
+ =?utf-8?B?VUdWMklrcTg5TXZ5RENtWVNxZXdwMDUwQ3pIZVRkeUl1ZkZCZFprb2dXNzNO?=
+ =?utf-8?B?TXFaSHVCVGdhYlZiZGVWeXpSTUl2bFZtN2toSkgvaEVuMWQ0VmpmdzQyaDM3?=
+ =?utf-8?B?OVkzbHdBaEtyaE1DbHZBT3M1dk5jUThlVnE4K0pYeVhaQTBUSDd0Z1FkaXdw?=
+ =?utf-8?B?aEVJb21ZZlA4U1dqdGVadmgrOXRMcjVLUEorTnFOTlZnTWdmWDdScSt3cytN?=
+ =?utf-8?B?SFhjcEQxb0Vld3ZFSjBkaVF4bjlJSzZJcG4wclNDYjhJZG5vOUd2K3BjNENF?=
+ =?utf-8?Q?JNP56FB3On+8Wk3WRPf9E?=
+MIME-Version: 1.0
+
+--===============1914028929606233813==
+Content-Type: multipart/alternative;
+ boundary="===============0938311636278297710=="
+
+--===============0938311636278297710==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Resumen del Pron=C3=B3stico de la Semana:
+
+La temperatura m=C3=A1xima prevista para esta semana oscila entre 15.4 y 21.9=
+=C2=B0C, lo que indica una variaci=C3=B3n moderada pero generalmente calurosa=
+. La humedad relativa m=C3=ADnima durante el d=C3=ADa se estima entre 53% y 7=
+9%, lo cual puede favorecer el crecimiento de la vegetaci=C3=B3n y aumentar e=
+l riesgo de incendios forestales si se producen llamas. La m=C3=A1xima rafaga=
+ de la tarde est=C3=A1 estimada en hasta 36.0 km/h, lo que podr=C3=ADa ser un=
+ factor importante en la propagaci=C3=B3n de incendios si se produce un vient=
+o fuerte.
+
+Los d=C3=ADas con mayor probabilidad de d=C3=ADa cr=C3=ADtico son s=C3=A1bado=
+ 14 y domingo 15, con un porcentaje de 10.0%. Este nivel de riesgo es conside=
+rado "Moderado", lo que significa que hay un alto potencial de incendio pero =
+que a=C3=BAn no se ha alcanzado el nivel extremo. No existen d=C3=ADas con ni=
+veles de riesgo m=C3=A1s altos en la semana.
+
+En t=C3=A9rminos de sectores prioritarios, Pirque es uno de los comunes con m=
+=C3=A1s sectores afectados, especialmente en la comuna de San Bernardo. En es=
+te sector, la probabilidad de incendio durante la temporada se estima entre 2=
+7.0 y 37.0%, lo que sugiere un alto riesgo de incendio en condiciones normale=
+s.
+
+Recomendaciones Pr=C3=A1cticas para los Guardaparques:
+
+1. Mantener un seguimiento constante de la situaci=C3=B3n clim=C3=A1tica y me=
+teorol=C3=B3gica.
+2. Prepararse para responder r=C3=A1pidamente a cualquier alerta de incendio.
+3. Realizar inspecciones peri=C3=B3dicas en =C3=A1reas vulnerables para detec=
+tar posibles incendios temprano.
+Este bolet=C3=ADn es una segunda opini=C3=B3n que complementa el pron=C3=B3st=
+ico oficial de CONAF.
+
+--===============0938311636278297710==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><h=
+2>Clarillo Predice - Bolet=C3=ADn de riesgo de incendio</h2><p><b>Semana de=
+l 14-11-2026 (pron=C3=B3stico de 7 d=C3=ADas)</b></p><p>Resumen del Pron=C3=
+=B3stico de la Semana:</p><p>La temperatura m=C3=A1xima prevista para esta =
+semana oscila entre 15.4 y 21.9=C2=B0C, lo que indica una variaci=C3=B3n mo=
+derada pero generalmente calurosa. La humedad relativa m=C3=ADnima durante =
+el d=C3=ADa se estima entre 53% y 79%, lo cual puede favorecer el crecimien=
+to de la vegetaci=C3=B3n y aumentar el riesgo de incendios forestales si se=
+ producen llamas. La m=C3=A1xima rafaga de la tarde est=C3=A1 estimada en h=
+asta 36.0 km/h, lo que podr=C3=ADa ser un factor importante en la propagaci=
+=C3=B3n de incendios si se produce un viento fuerte.</p><p>Los d=C3=ADas co=
+n mayor probabilidad de d=C3=ADa cr=C3=ADtico son s=C3=A1bado 14 y domingo =
+15, con un porcentaje de 10.0%. Este nivel de riesgo es considerado &quot;M=
+oderado&quot;, lo que significa que hay un alto potencial de incendio pero =
+que a=C3=BAn no se ha alcanzado el nivel extremo. No existen d=C3=ADas con =
+niveles de riesgo m=C3=A1s altos en la semana.</p><p>En t=C3=A9rminos de se=
+ctores prioritarios, Pirque es uno de los comunes con m=C3=A1s sectores afe=
+ctados, especialmente en la comuna de San Bernardo. En este sector, la prob=
+abilidad de incendio durante la temporada se estima entre 27.0 y 37.0%, lo =
+que sugiere un alto riesgo de incendio en condiciones normales.</p><p>Recom=
+endaciones Pr=C3=A1cticas para los Guardaparques:</p><p>1. Mantener un segu=
+imiento constante de la situaci=C3=B3n clim=C3=A1tica y meteorol=C3=B3gica.=
+</p><p>2. Prepararse para responder r=C3=A1pidamente a cualquier alerta de =
+incendio.</p><p>3. Realizar inspecciones peri=C3=B3dicas en =C3=A1reas vuln=
+erables para detectar posibles incendios temprano.</p><p>Este bolet=C3=ADn =
+es una segunda opini=C3=B3n que complementa el pron=C3=B3stico oficial de C=
+ONAF.</p><h3>Riesgo por d=C3=ADa</h3><table border=3D"1" class=3D"dataframe=
+">
+  <thead>
+    <tr style=3D"text-align: right;">
+      <th>D=C3=ADa</th>
+      <th>T=C2=B0 m=C3=A1x (=C2=B0C)</th>
+      <th>HR m=C3=ADn tarde (%)</th>
+      <th>R=C3=A1faga tarde (km/h)</th>
+      <th>Prob. d=C3=ADa cr=C3=ADtico (%)</th>
+      <th>Nivel</th>
+      <th>Acci=C3=B3n sugerida</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S=C3=A1b 14-11</td>
+      <td>21.9</td>
+      <td>79</td>
+      <td>27.0</td>
+      <td>10.0</td>
+      <td>Moderado</td>
+      <td>Difusi=C3=B3n preventiva a visitantes y vecinos</td>
+    </tr>
+    <tr>
+      <td>Dom 15-11</td>
+      <td>19.8</td>
+      <td>63</td>
+      <td>27.0</td>
+      <td>10.0</td>
+      <td>Moderado</td>
+      <td>Difusi=C3=B3n preventiva a visitantes y vecinos</td>
+    </tr>
+    <tr>
+      <td>Lun 16-11</td>
+      <td>15.6</td>
+      <td>73</td>
+      <td>24.0</td>
+      <td>7.0</td>
+      <td>Moderado</td>
+      <td>Difusi=C3=B3n preventiva a visitantes y vecinos</td>
+    </tr>
+    <tr>
+      <td>Mar 17-11</td>
+      <td>18.0</td>
+      <td>67</td>
+      <td>35.0</td>
+      <td>8.0</td>
+      <td>Moderado</td>
+      <td>Difusi=C3=B3n preventiva a visitantes y vecinos</td>
+    </tr>
+    <tr>
+      <td>Mi=C3=A9 18-11</td>
+      <td>18.8</td>
+      <td>58</td>
+      <td>34.0</td>
+      <td>8.0</td>
+      <td>Moderado</td>
+      <td>Difusi=C3=B3n preventiva a visitantes y vecinos</td>
+    </tr>
+    <tr>
+      <td>Jue 19-11</td>
+      <td>15.4</td>
+      <td>53</td>
+      <td>36.0</td>
+      <td>9.0</td>
+      <td>Moderado</td>
+      <td>Difusi=C3=B3n preventiva a visitantes y vecinos</td>
+    </tr>
+    <tr>
+      <td>Vie 20-11</td>
+      <td>19.7</td>
+      <td>58</td>
+      <td>26.0</td>
+      <td>6.0</td>
+      <td>Moderado</td>
+      <td>Difusi=C3=B3n preventiva a visitantes y vecinos</td>
+    </tr>
+  </tbody>
+</table><h3>Sectores prioritarios</h3><table border=3D"1" class=3D"datafram=
+e">
+  <thead>
+    <tr style=3D"text-align: right;">
+      <th>Sector</th>
+      <th>Mapa</th>
+      <th>Prob. temporada (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Puente Alto</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.5971,-70.5473" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.5971,-70.5473</a></td>
+      <td>70.0</td>
+    </tr>
+    <tr>
+      <td>Puente Alto</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.5791,-70.5473" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.5791,-70.5473</a></td>
+      <td>56.0</td>
+    </tr>
+    <tr>
+      <td>Puente Alto</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.6151,-70.5473" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.6151,-70.5473</a></td>
+      <td>54.0</td>
+    </tr>
+    <tr>
+      <td>Puente Alto</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.5791,-70.5257" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.5791,-70.5257</a></td>
+      <td>54.0</td>
+    </tr>
+    <tr>
+      <td>Puente Alto</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.5432,-70.5473" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.5432,-70.5473</a></td>
+      <td>51.0</td>
+    </tr>
+    <tr>
+      <td>San Bernardo</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.6511,-70.6555" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.6511,-70.6555</a></td>
+      <td>45.0</td>
+    </tr>
+    <tr>
+      <td>Puente Alto</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.6151,-70.5257" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.6151,-70.5257</a></td>
+      <td>44.0</td>
+    </tr>
+    <tr>
+      <td>Puente Alto</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.5971,-70.5041" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.5971,-70.5041</a></td>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <td>Pirque</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.6151,-70.5041" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.6151,-70.5041</a></td>
+      <td>37.0</td>
+    </tr>
+    <tr>
+      <td>San Jos=C3=A9 de Maipo</td>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.5971,-70.4825" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.5971,-70.4825</a></td>
+      <td>36.0</td>
+    </tr>
+  </tbody>
+</table><h3>Sectores de mayor riesgo en Pirque</h3><table border=3D"1" clas=
+s=3D"dataframe">
+  <thead>
+    <tr style=3D"text-align: right;">
+      <th>Mapa</th>
+      <th>Prob. temporada (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.6151,-70.5041" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.6151,-70.5041</a></td>
+      <td>37.0</td>
+    </tr>
+    <tr>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.6870,-70.5690" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.6870,-70.5690</a></td>
+      <td>35.0</td>
+    </tr>
+    <tr>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.6511,-70.6339" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.6511,-70.6339</a></td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.7050,-70.5257" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.7050,-70.5257</a></td>
+      <td>32.0</td>
+    </tr>
+    <tr>
+      <td><a href=3D"https://maps.google.com/?q=3D-33.5971,-70.4608" target=
+=3D"_blank">https://maps.google.com/?q=3D-33.5971,-70.4608</a></td>
+      <td>27.0</td>
+    </tr>
+  </tbody>
+</table>
+
+--===============0938311636278297710==--
+
+--===============1914028929606233813==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="boletin_2026-11-14.html"
+
+PGgyPkNsYXJpbGxvIFByZWRpY2UgLSBCb2xldMOtbiBkZSByaWVzZ28gZGUgaW5jZW5kaW88L2gy
+PjxwPjxiPlNlbWFuYSBkZWwgMTQtMTEtMjAyNiAocHJvbsOzc3RpY28gZGUgNyBkw61hcyk8L2I+
+PC9wPjxwPlJlc3VtZW4gZGVsIFByb27Ds3N0aWNvIGRlIGxhIFNlbWFuYTo8L3A+PHA+TGEgdGVt
+cGVyYXR1cmEgbcOheGltYSBwcmV2aXN0YSBwYXJhIGVzdGEgc2VtYW5hIG9zY2lsYSBlbnRyZSAx
+NS40IHkgMjEuOcKwQywgbG8gcXVlIGluZGljYSB1bmEgdmFyaWFjacOzbiBtb2RlcmFkYSBwZXJv
+IGdlbmVyYWxtZW50ZSBjYWx1cm9zYS4gTGEgaHVtZWRhZCByZWxhdGl2YSBtw61uaW1hIGR1cmFu
+dGUgZWwgZMOtYSBzZSBlc3RpbWEgZW50cmUgNTMlIHkgNzklLCBsbyBjdWFsIHB1ZWRlIGZhdm9y
+ZWNlciBlbCBjcmVjaW1pZW50byBkZSBsYSB2ZWdldGFjacOzbiB5IGF1bWVudGFyIGVsIHJpZXNn
+byBkZSBpbmNlbmRpb3MgZm9yZXN0YWxlcyBzaSBzZSBwcm9kdWNlbiBsbGFtYXMuIExhIG3DoXhp
+bWEgcmFmYWdhIGRlIGxhIHRhcmRlIGVzdMOhIGVzdGltYWRhIGVuIGhhc3RhIDM2LjAga20vaCwg
+bG8gcXVlIHBvZHLDrWEgc2VyIHVuIGZhY3RvciBpbXBvcnRhbnRlIGVuIGxhIHByb3BhZ2FjacOz
+biBkZSBpbmNlbmRpb3Mgc2kgc2UgcHJvZHVjZSB1biB2aWVudG8gZnVlcnRlLjwvcD48cD5Mb3Mg
+ZMOtYXMgY29uIG1heW9yIHByb2JhYmlsaWRhZCBkZSBkw61hIGNyw610aWNvIHNvbiBzw6FiYWRv
+IDE0IHkgZG9taW5nbyAxNSwgY29uIHVuIHBvcmNlbnRhamUgZGUgMTAuMCUuIEVzdGUgbml2ZWwg
+ZGUgcmllc2dvIGVzIGNvbnNpZGVyYWRvICJNb2RlcmFkbyIsIGxvIHF1ZSBzaWduaWZpY2EgcXVl
+IGhheSB1biBhbHRvIHBvdGVuY2lhbCBkZSBpbmNlbmRpbyBwZXJvIHF1ZSBhw7puIG5vIHNlIGhh
+IGFsY2FuemFkbyBlbCBuaXZlbCBleHRyZW1vLiBObyBleGlzdGVuIGTDrWFzIGNvbiBuaXZlbGVz
+IGRlIHJpZXNnbyBtw6FzIGFsdG9zIGVuIGxhIHNlbWFuYS48L3A+PHA+RW4gdMOpcm1pbm9zIGRl
+IHNlY3RvcmVzIHByaW9yaXRhcmlvcywgUGlycXVlIGVzIHVubyBkZSBsb3MgY29tdW5lcyBjb24g
+bcOhcyBzZWN0b3JlcyBhZmVjdGFkb3MsIGVzcGVjaWFsbWVudGUgZW4gbGEgY29tdW5hIGRlIFNh
+biBCZXJuYXJkby4gRW4gZXN0ZSBzZWN0b3IsIGxhIHByb2JhYmlsaWRhZCBkZSBpbmNlbmRpbyBk
+dXJhbnRlIGxhIHRlbXBvcmFkYSBzZSBlc3RpbWEgZW50cmUgMjcuMCB5IDM3LjAlLCBsbyBxdWUg
+c3VnaWVyZSB1biBhbHRvIHJpZXNnbyBkZSBpbmNlbmRpbyBlbiBjb25kaWNpb25lcyBub3JtYWxl
+cy48L3A+PHA+UmVjb21lbmRhY2lvbmVzIFByw6FjdGljYXMgcGFyYSBsb3MgR3VhcmRhcGFycXVl
+czo8L3A+PHA+MS4gTWFudGVuZXIgdW4gc2VndWltaWVudG8gY29uc3RhbnRlIGRlIGxhIHNpdHVh
+Y2nDs24gY2xpbcOhdGljYSB5IG1ldGVvcm9sw7NnaWNhLjwvcD48cD4yLiBQcmVwYXJhcnNlIHBh
+cmEgcmVzcG9uZGVyIHLDoXBpZGFtZW50ZSBhIGN1YWxxdWllciBhbGVydGEgZGUgaW5jZW5kaW8u
+PC9wPjxwPjMuIFJlYWxpemFyIGluc3BlY2Npb25lcyBwZXJpw7NkaWNhcyBlbiDDoXJlYXMgdnVs
+bmVyYWJsZXMgcGFyYSBkZXRlY3RhciBwb3NpYmxlcyBpbmNlbmRpb3MgdGVtcHJhbm8uPC9wPjxw
+PkVzdGUgYm9sZXTDrW4gZXMgdW5hIHNlZ3VuZGEgb3BpbmnDs24gcXVlIGNvbXBsZW1lbnRhIGVs
+IHByb27Ds3N0aWNvIG9maWNpYWwgZGUgQ09OQUYuPC9wPjxoMz5SaWVzZ28gcG9yIGTDrWE8L2gz
+Pjx0YWJsZSBib3JkZXI9IjEiIGNsYXNzPSJkYXRhZnJhbWUiPgogIDx0aGVhZD4KICAgIDx0ciBz
+dHlsZT0idGV4dC1hbGlnbjogcmlnaHQ7Ij4KICAgICAgPHRoPkTDrWE8L3RoPgogICAgICA8dGg+
+VMKwIG3DoXggKMKwQyk8L3RoPgogICAgICA8dGg+SFIgbcOtbiB0YXJkZSAoJSk8L3RoPgogICAg
+ICA8dGg+UsOhZmFnYSB0YXJkZSAoa20vaCk8L3RoPgogICAgICA8dGg+UHJvYi4gZMOtYSBjcsOt
+dGljbyAoJSk8L3RoPgogICAgICA8dGg+Tml2ZWw8L3RoPgogICAgICA8dGg+QWNjacOzbiBzdWdl
+cmlkYTwvdGg+CiAgICA8L3RyPgogIDwvdGhlYWQ+CiAgPHRib2R5PgogICAgPHRyPgogICAgICA8
+dGQ+U8OhYiAxNC0xMTwvdGQ+CiAgICAgIDx0ZD4yMS45PC90ZD4KICAgICAgPHRkPjc5PC90ZD4K
+ICAgICAgPHRkPjI3LjA8L3RkPgogICAgICA8dGQ+MTAuMDwvdGQ+CiAgICAgIDx0ZD5Nb2RlcmFk
+bzwvdGQ+CiAgICAgIDx0ZD5EaWZ1c2nDs24gcHJldmVudGl2YSBhIHZpc2l0YW50ZXMgeSB2ZWNp
+bm9zPC90ZD4KICAgIDwvdHI+CiAgICA8dHI+CiAgICAgIDx0ZD5Eb20gMTUtMTE8L3RkPgogICAg
+ICA8dGQ+MTkuODwvdGQ+CiAgICAgIDx0ZD42MzwvdGQ+CiAgICAgIDx0ZD4yNy4wPC90ZD4KICAg
+ICAgPHRkPjEwLjA8L3RkPgogICAgICA8dGQ+TW9kZXJhZG88L3RkPgogICAgICA8dGQ+RGlmdXNp
+w7NuIHByZXZlbnRpdmEgYSB2aXNpdGFudGVzIHkgdmVjaW5vczwvdGQ+CiAgICA8L3RyPgogICAg
+PHRyPgogICAgICA8dGQ+THVuIDE2LTExPC90ZD4KICAgICAgPHRkPjE1LjY8L3RkPgogICAgICA8
+dGQ+NzM8L3RkPgogICAgICA8dGQ+MjQuMDwvdGQ+CiAgICAgIDx0ZD43LjA8L3RkPgogICAgICA8
+dGQ+TW9kZXJhZG88L3RkPgogICAgICA8dGQ+RGlmdXNpw7NuIHByZXZlbnRpdmEgYSB2aXNpdGFu
+dGVzIHkgdmVjaW5vczwvdGQ+CiAgICA8L3RyPgogICAgPHRyPgogICAgICA8dGQ+TWFyIDE3LTEx
+PC90ZD4KICAgICAgPHRkPjE4LjA8L3RkPgogICAgICA8dGQ+Njc8L3RkPgogICAgICA8dGQ+MzUu
+MDwvdGQ+CiAgICAgIDx0ZD44LjA8L3RkPgogICAgICA8dGQ+TW9kZXJhZG88L3RkPgogICAgICA8
+dGQ+RGlmdXNpw7NuIHByZXZlbnRpdmEgYSB2aXNpdGFudGVzIHkgdmVjaW5vczwvdGQ+CiAgICA8
+L3RyPgogICAgPHRyPgogICAgICA8dGQ+TWnDqSAxOC0xMTwvdGQ+CiAgICAgIDx0ZD4xOC44PC90
+ZD4KICAgICAgPHRkPjU4PC90ZD4KICAgICAgPHRkPjM0LjA8L3RkPgogICAgICA8dGQ+OC4wPC90
+ZD4KICAgICAgPHRkPk1vZGVyYWRvPC90ZD4KICAgICAgPHRkPkRpZnVzacOzbiBwcmV2ZW50aXZh
+IGEgdmlzaXRhbnRlcyB5IHZlY2lub3M8L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRk
+Pkp1ZSAxOS0xMTwvdGQ+CiAgICAgIDx0ZD4xNS40PC90ZD4KICAgICAgPHRkPjUzPC90ZD4KICAg
+ICAgPHRkPjM2LjA8L3RkPgogICAgICA8dGQ+OS4wPC90ZD4KICAgICAgPHRkPk1vZGVyYWRvPC90
+ZD4KICAgICAgPHRkPkRpZnVzacOzbiBwcmV2ZW50aXZhIGEgdmlzaXRhbnRlcyB5IHZlY2lub3M8
+L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRkPlZpZSAyMC0xMTwvdGQ+CiAgICAgIDx0
+ZD4xOS43PC90ZD4KICAgICAgPHRkPjU4PC90ZD4KICAgICAgPHRkPjI2LjA8L3RkPgogICAgICA8
+dGQ+Ni4wPC90ZD4KICAgICAgPHRkPk1vZGVyYWRvPC90ZD4KICAgICAgPHRkPkRpZnVzacOzbiBw
+cmV2ZW50aXZhIGEgdmlzaXRhbnRlcyB5IHZlY2lub3M8L3RkPgogICAgPC90cj4KICA8L3Rib2R5
+Pgo8L3RhYmxlPjxoMz5TZWN0b3JlcyBwcmlvcml0YXJpb3M8L2gzPjx0YWJsZSBib3JkZXI9IjEi
+IGNsYXNzPSJkYXRhZnJhbWUiPgogIDx0aGVhZD4KICAgIDx0ciBzdHlsZT0idGV4dC1hbGlnbjog
+cmlnaHQ7Ij4KICAgICAgPHRoPlNlY3RvcjwvdGg+CiAgICAgIDx0aD5NYXBhPC90aD4KICAgICAg
+PHRoPlByb2IuIHRlbXBvcmFkYSAoJSk8L3RoPgogICAgPC90cj4KICA8L3RoZWFkPgogIDx0Ym9k
+eT4KICAgIDx0cj4KICAgICAgPHRkPlB1ZW50ZSBBbHRvPC90ZD4KICAgICAgPHRkPjxhIGhyZWY9
+Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy41OTcxLC03MC41NDczIiB0YXJnZXQ9Il9i
+bGFuayI+aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjU5NzEsLTcwLjU0NzM8L2E+PC90
+ZD4KICAgICAgPHRkPjcwLjA8L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRkPlB1ZW50
+ZSBBbHRvPC90ZD4KICAgICAgPHRkPjxhIGhyZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9x
+PS0zMy41NzkxLC03MC41NDczIiB0YXJnZXQ9Il9ibGFuayI+aHR0cHM6Ly9tYXBzLmdvb2dsZS5j
+b20vP3E9LTMzLjU3OTEsLTcwLjU0NzM8L2E+PC90ZD4KICAgICAgPHRkPjU2LjA8L3RkPgogICAg
+PC90cj4KICAgIDx0cj4KICAgICAgPHRkPlB1ZW50ZSBBbHRvPC90ZD4KICAgICAgPHRkPjxhIGhy
+ZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy42MTUxLC03MC41NDczIiB0YXJnZXQ9
+Il9ibGFuayI+aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjYxNTEsLTcwLjU0NzM8L2E+
+PC90ZD4KICAgICAgPHRkPjU0LjA8L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRkPlB1
+ZW50ZSBBbHRvPC90ZD4KICAgICAgPHRkPjxhIGhyZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29t
+Lz9xPS0zMy41NzkxLC03MC41MjU3IiB0YXJnZXQ9Il9ibGFuayI+aHR0cHM6Ly9tYXBzLmdvb2ds
+ZS5jb20vP3E9LTMzLjU3OTEsLTcwLjUyNTc8L2E+PC90ZD4KICAgICAgPHRkPjU0LjA8L3RkPgog
+ICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRkPlB1ZW50ZSBBbHRvPC90ZD4KICAgICAgPHRkPjxh
+IGhyZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy41NDMyLC03MC41NDczIiB0YXJn
+ZXQ9Il9ibGFuayI+aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjU0MzIsLTcwLjU0NzM8
+L2E+PC90ZD4KICAgICAgPHRkPjUxLjA8L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRk
+PlNhbiBCZXJuYXJkbzwvdGQ+CiAgICAgIDx0ZD48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xl
+LmNvbS8/cT0tMzMuNjUxMSwtNzAuNjU1NSIgdGFyZ2V0PSJfYmxhbmsiPmh0dHBzOi8vbWFwcy5n
+b29nbGUuY29tLz9xPS0zMy42NTExLC03MC42NTU1PC9hPjwvdGQ+CiAgICAgIDx0ZD40NS4wPC90
+ZD4KICAgIDwvdHI+CiAgICA8dHI+CiAgICAgIDx0ZD5QdWVudGUgQWx0bzwvdGQ+CiAgICAgIDx0
+ZD48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT0tMzMuNjE1MSwtNzAuNTI1NyIg
+dGFyZ2V0PSJfYmxhbmsiPmh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy42MTUxLC03MC41
+MjU3PC9hPjwvdGQ+CiAgICAgIDx0ZD40NC4wPC90ZD4KICAgIDwvdHI+CiAgICA8dHI+CiAgICAg
+IDx0ZD5QdWVudGUgQWx0bzwvdGQ+CiAgICAgIDx0ZD48YSBocmVmPSJodHRwczovL21hcHMuZ29v
+Z2xlLmNvbS8/cT0tMzMuNTk3MSwtNzAuNTA0MSIgdGFyZ2V0PSJfYmxhbmsiPmh0dHBzOi8vbWFw
+cy5nb29nbGUuY29tLz9xPS0zMy41OTcxLC03MC41MDQxPC9hPjwvdGQ+CiAgICAgIDx0ZD40MC4w
+PC90ZD4KICAgIDwvdHI+CiAgICA8dHI+CiAgICAgIDx0ZD5QaXJxdWU8L3RkPgogICAgICA8dGQ+
+PGEgaHJlZj0iaHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjYxNTEsLTcwLjUwNDEiIHRh
+cmdldD0iX2JsYW5rIj5odHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT0tMzMuNjE1MSwtNzAuNTA0
+MTwvYT48L3RkPgogICAgICA8dGQ+MzcuMDwvdGQ+CiAgICA8L3RyPgogICAgPHRyPgogICAgICA8
+dGQ+U2FuIEpvc8OpIGRlIE1haXBvPC90ZD4KICAgICAgPHRkPjxhIGhyZWY9Imh0dHBzOi8vbWFw
+cy5nb29nbGUuY29tLz9xPS0zMy41OTcxLC03MC40ODI1IiB0YXJnZXQ9Il9ibGFuayI+aHR0cHM6
+Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjU5NzEsLTcwLjQ4MjU8L2E+PC90ZD4KICAgICAgPHRk
+PjM2LjA8L3RkPgogICAgPC90cj4KICA8L3Rib2R5Pgo8L3RhYmxlPjxoMz5TZWN0b3JlcyBkZSBt
+YXlvciByaWVzZ28gZW4gUGlycXVlPC9oMz48dGFibGUgYm9yZGVyPSIxIiBjbGFzcz0iZGF0YWZy
+YW1lIj4KICA8dGhlYWQ+CiAgICA8dHIgc3R5bGU9InRleHQtYWxpZ246IHJpZ2h0OyI+CiAgICAg
+IDx0aD5NYXBhPC90aD4KICAgICAgPHRoPlByb2IuIHRlbXBvcmFkYSAoJSk8L3RoPgogICAgPC90
+cj4KICA8L3RoZWFkPgogIDx0Ym9keT4KICAgIDx0cj4KICAgICAgPHRkPjxhIGhyZWY9Imh0dHBz
+Oi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy42MTUxLC03MC41MDQxIiB0YXJnZXQ9Il9ibGFuayI+
+aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjYxNTEsLTcwLjUwNDE8L2E+PC90ZD4KICAg
+ICAgPHRkPjM3LjA8L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRkPjxhIGhyZWY9Imh0
+dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy42ODcwLC03MC41NjkwIiB0YXJnZXQ9Il9ibGFu
+ayI+aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjY4NzAsLTcwLjU2OTA8L2E+PC90ZD4K
+ICAgICAgPHRkPjM1LjA8L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRkPjxhIGhyZWY9
+Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy42NTExLC03MC42MzM5IiB0YXJnZXQ9Il9i
+bGFuayI+aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjY1MTEsLTcwLjYzMzk8L2E+PC90
+ZD4KICAgICAgPHRkPjM0LjA8L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRkPjxhIGhy
+ZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy43MDUwLC03MC41MjU3IiB0YXJnZXQ9
+Il9ibGFuayI+aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjcwNTAsLTcwLjUyNTc8L2E+
+PC90ZD4KICAgICAgPHRkPjMyLjA8L3RkPgogICAgPC90cj4KICAgIDx0cj4KICAgICAgPHRkPjxh
+IGhyZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPS0zMy41OTcxLC03MC40NjA4IiB0YXJn
+ZXQ9Il9ibGFuayI+aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9LTMzLjU5NzEsLTcwLjQ2MDg8
+L2E+PC90ZD4KICAgICAgPHRkPjI3LjA8L3RkPgogICAgPC90cj4KICA8L3Rib2R5Pgo8L3RhYmxl
+Pg==
+
+--===============1914028929606233813==--
