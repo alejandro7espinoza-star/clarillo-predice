@@ -1,0 +1,889 @@
+fecha,temporada,comuna,lat,lon,dist_parque_km,causa_grupo,superficie_ha,celda_i,celda_j
+2002-11-08,2002-2003,Pirque,-33.68667,-70.54806,11.5,Intencional,0.2,-5,3
+2002-11-14,2002-2003,Buin,-33.69417,-70.66694,21.0,Actividades recreativas,9.0,-11,3
+2002-11-20,2002-2003,San José de Maipo,-33.65278,-70.375,12.8,Actividades recreativas,0.2,3,5
+2002-12-02,2002-2003,Buin,-33.70361,-70.64556,18.8,Otras,9.0,-10,2
+2002-12-07,2002-2003,San Bernardo,-33.63083,-70.67667,24.8,Intencional,0.01,-11,6
+2002-12-07,2002-2003,San Bernardo,-33.63083,-70.67667,24.8,Intencional,0.1,-11,6
+2002-12-09,2002-2003,San José de Maipo,-33.62611,-70.34222,17.0,Intencional,0.02,4,6
+2002-12-10,2002-2003,La Florida,-33.55139,-70.54583,23.8,Intencional,0.01,-5,11
+2002-12-10,2002-2003,La Florida,-33.55139,-70.55639,24.2,Intencional,2.5,-5,11
+2002-12-11,2002-2003,Puente Alto,-33.56972,-70.53528,21.5,Otras,1.0,-4,10
+2002-12-12,2002-2003,Puente Alto,-33.63222,-70.59028,18.4,Quemas,0.6,-7,6
+2002-12-15,2002-2003,San Bernardo,-33.62222,-70.66556,24.5,Actividades recreativas,2.2,-10,7
+2002-12-17,2002-2003,Puente Alto,-33.62306,-70.60083,19.8,Faenas agrícolas/forestales,1.5,-7,7
+2002-12-19,2002-2003,Puente Alto,-33.60556,-70.5575,18.9,Actividades recreativas,0.8999999999999999,-5,8
+2002-12-22,2002-2003,San Bernardo,-33.65833,-70.65556,21.6,Intencional,0.05,-10,5
+2002-12-23,2002-2003,La Florida,-33.53361,-70.52389,25.0,Intencional,0.2,-4,12
+2002-12-26,2002-2003,San Bernardo,-33.64056,-70.63361,20.9,Quemas,0.2,-9,6
+2002-12-27,2002-2003,Puente Alto,-33.61389,-70.60083,20.6,Intencional,0.1,-7,7
+2003-01-04,2002-2003,Pirque,-33.70528,-70.50528,7.1,Actividades recreativas,0.5,-3,2
+2003-01-04,2002-2003,Pirque,-33.70528,-70.51611,7.9,Actividades recreativas,0.5,-4,2
+2003-01-05,2002-2003,Puente Alto,-33.59694,-70.525,18.4,Intencional,0.05,-4,8
+2003-01-05,2002-2003,Puente Alto,-33.61472,-70.54694,17.5,Intencional,0.01,-5,7
+2003-01-08,2002-2003,San José de Maipo,-33.58083,-70.36306,20.5,Tránsito de personas/vehículos,0.05,4,9
+2003-01-11,2002-2003,La Florida,-33.55139,-70.54583,23.8,Tránsito de personas/vehículos,1.8,-5,11
+2003-01-14,2002-2003,Paine,-33.7575,-70.6575,19.2,Tránsito de personas/vehículos,0.5,-10,-1
+2003-01-17,2002-2003,Puente Alto,-33.62306,-70.60083,19.8,Tránsito de personas/vehículos,0.1,-7,7
+2003-01-18,2002-2003,Puente Alto,-33.55194,-70.50278,22.6,Tránsito de personas/vehículos,2.0,-3,11
+2003-01-19,2002-2003,San José de Maipo,-33.61722,-70.32056,19.0,Actividades recreativas,3.0,5,7
+2003-01-24,2002-2003,La Florida,-33.56083,-70.52444,22.1,Intencional,1.5,-4,10
+2003-01-25,2002-2003,Pirque,-33.64917,-70.65528,22.1,Tránsito de personas/vehículos,1.0,-10,5
+2003-01-29,2002-2003,Buin,-33.70361,-70.63472,17.8,Actividades recreativas,9.0,-9,2
+2003-02-01,2002-2003,San José de Maipo,-33.59889,-70.3525,19.1,Tránsito de personas/vehículos,0.07,4,8
+2003-02-02,2002-2003,San Bernardo,-33.6325,-70.56889,17.1,Tránsito de personas/vehículos,1.0,-6,6
+2003-02-05,2002-2003,Puente Alto,-33.57889,-70.52472,20.2,Quemas,0.6,-4,9
+2003-02-08,2002-2003,Puente Alto,-33.59722,-70.50333,17.7,Actividades recreativas,0.05,-3,8
+2003-02-09,2002-2003,Paine,-33.8575,-70.59444,17.9,Actividades recreativas,1.7000000000000002,-7,-6
+2003-02-16,2002-2003,San José de Maipo,-33.57944,-70.48167,19.2,Intencional,0.15,-2,9
+2003-02-17,2002-2003,Puente Alto,-33.59667,-70.54667,19.3,Tránsito de personas/vehículos,2.8,-5,8
+2003-02-20,2002-2003,San Bernardo,-33.63083,-70.67667,24.8,Intencional,1.7,-11,6
+2003-02-22,2002-2003,Puente Alto,-33.58778,-70.53556,19.7,Faenas agrícolas/forestales,1.5,-4,9
+2003-03-02,2002-2003,Puente Alto,-33.60556,-70.5575,18.9,Intencional,0.1,-5,8
+2003-03-02,2002-2003,Pirque,-33.615,-70.52528,16.5,Intencional,0.5,-4,7
+2003-03-08,2002-2003,Pirque,-33.65917,-70.58,15.7,Intencional,0.1,-7,5
+2003-03-26,2002-2003,San José de Maipo,-33.66222,-70.34278,13.9,Intencional,3.0,4,4
+2003-03-30,2002-2003,Puente Alto,-33.60583,-70.53583,17.9,Intencional,0.1,-4,8
+2003-04-11,2002-2003,Puente Alto,-33.57861,-70.53556,20.6,Quemas,1.5,-4,9
+2003-05-02,2002-2003,La Florida,-33.5425,-70.54556,24.7,Intencional,1.0,-5,11
+2003-05-03,2002-2003,San Bernardo,-33.64917,-70.66611,22.9,Intencional,1.0,-10,5
+2003-05-07,2002-2003,Puente Alto,-33.60556,-70.54667,18.4,Intencional,0.5,-5,8
+2003-10-31,2003-2004,La Florida,-33.5425,-70.54556,24.7,Intencional,2.5,-5,11
+2003-11-01,2003-2004,San José de Maipo,-33.58944,-70.38472,18.8,Tránsito de personas/vehículos,0.2,3,8
+2003-11-08,2003-2004,Buin,-33.64944,-70.63389,20.4,Actividades recreativas,10.0,-9,5
+2003-11-24,2003-2004,La Florida,-33.55139,-70.54583,23.8,Intencional,0.1,-5,11
+2003-11-28,2003-2004,Puente Alto,-33.60556,-70.54667,18.4,Actividades recreativas,0.01,-5,8
+2003-11-28,2003-2004,Puente Alto,-33.58778,-70.52472,19.3,Intencional,40.0,-4,9
+2003-12-01,2003-2004,San Bernardo,-33.62222,-70.66556,24.5,Faenas agrícolas/forestales,0.1,-10,7
+2003-12-04,2003-2004,Pirque,-33.71361,-70.55944,10.9,Actividades recreativas,0.4,-6,2
+2003-12-05,2003-2004,Puente Alto,-33.56083,-70.52444,22.1,Quemas,0.01,-4,10
+2003-12-07,2003-2004,La Florida,-33.55139,-70.54583,23.8,Tránsito de personas/vehículos,1.2,-5,11
+2003-12-15,2003-2004,La Florida,-33.5425,-70.53472,24.4,Tránsito de personas/vehículos,4.5,-4,11
+2003-12-17,2003-2004,Pirque,-33.71417,-70.51639,7.3,Tránsito de personas/vehículos,0.01,-4,1
+2003-12-19,2003-2004,San Bernardo,-33.57889,-70.52472,20.2,Intencional,3.6,-4,9
+2003-12-20,2003-2004,San José de Maipo,-33.81611,-70.26972,18.2,Actividades recreativas,0.3,8,-4
+2003-12-20,2003-2004,Puente Alto,-33.62389,-70.52556,15.7,Intencional,1.0,-4,7
+2003-12-22,2003-2004,San José de Maipo,-33.74389,-70.27944,15.8,Tránsito de personas/vehículos,3.0,7,0
+2003-12-27,2003-2004,Pirque,-33.615,-70.51444,16.2,Actividades recreativas,0.01,-3,7
+2003-12-30,2003-2004,Pirque,-33.72278,-70.55972,10.6,Faenas agrícolas/forestales,3.0,-6,1
+2004-01-02,2003-2004,San Bernardo,-33.64056,-70.64444,21.7,Intencional,1.0,-9,6
+2004-01-03,2003-2004,Puente Alto,-33.61472,-70.54694,17.5,Tránsito de personas/vehículos,0.2,-5,7
+2004-01-05,2003-2004,San Bernardo,-33.64917,-70.65528,22.1,Tránsito de personas/vehículos,1.5,-10,5
+2004-01-09,2003-2004,Pirque,-33.72278,-70.54889,9.6,Actividades recreativas,3.0,-5,1
+2004-01-23,2003-2004,Buin,-33.73028,-70.67833,21.2,Actividades recreativas,1.0,-11,1
+2004-01-28,2003-2004,Puente Alto,-33.58806,-70.50333,18.7,Intencional,0.2,-3,9
+2004-02-29,2003-2004,Puente Alto,-33.615,-70.52528,16.5,Tránsito de personas/vehículos,0.8,-4,7
+2004-03-04,2003-2004,La Florida,-33.58778,-70.52472,19.3,Tránsito de personas/vehículos,2.0,-4,9
+2004-03-04,2003-2004,Paine,-33.75167,-70.64667,18.2,Tránsito de personas/vehículos,0.2,-10,-1
+2004-03-25,2003-2004,La Florida,-33.57861,-70.53556,20.6,Intencional,0.1,-4,9
+2004-03-26,2003-2004,Buin,-33.64889,-70.67694,23.8,Tránsito de personas/vehículos,0.01,-11,5
+2004-04-13,2003-2004,Buin,-33.64944,-70.64444,21.2,Tránsito de personas/vehículos,0.1,-9,5
+2004-08-23,2004-2005,San José de Maipo,-33.77111,-70.25806,17.9,Intencional,1.5,8,-2
+2004-11-28,2004-2005,Buin,-33.68528,-70.66694,21.3,Actividades recreativas,2.5,-11,3
+2004-11-30,2004-2005,San José de Maipo,-33.58,-70.41694,19.1,Tránsito de personas/vehículos,0.1,1,9
+2004-12-11,2004-2005,San Bernardo,-33.65833,-70.65556,21.6,Tránsito de personas/vehículos,0.02,-10,5
+2004-12-11,2004-2005,Paine,-33.7575,-70.6575,19.2,Faenas agrícolas/forestales,0.6,-10,-1
+2004-12-18,2004-2005,San Bernardo,-33.63111,-70.66583,23.9,Intencional,0.1,-10,6
+2004-12-20,2004-2005,San Bernardo,-33.64917,-70.66611,22.9,Otras,3.0,-10,5
+2004-12-20,2004-2005,Puente Alto,-33.58778,-70.53556,19.7,Otras,0.5,-4,9
+2004-12-22,2004-2005,Puente Alto,-33.61472,-70.53611,17.0,Tránsito de personas/vehículos,0.1,-4,7
+2005-01-09,2004-2005,Buin,-33.69417,-70.66694,21.0,Intencional,5.0,-11,3
+2005-01-13,2004-2005,San Bernardo,-33.6225,-70.64417,22.9,Tránsito de personas/vehículos,0.8,-9,7
+2005-01-22,2004-2005,Pirque,-33.69583,-70.54833,10.9,Tránsito de personas/vehículos,0.3,-5,3
+2005-01-24,2004-2005,Puente Alto,-33.56056,-70.54583,22.9,Faenas agrícolas/forestales,0.5,-5,10
+2005-01-26,2004-2005,Pirque,-33.76806,-70.53889,8.5,Tránsito de personas/vehículos,3.0,-5,-2
+2005-01-28,2004-2005,Pirque,-33.72222,-70.59194,13.5,Tránsito de personas/vehículos,0.1,-7,1
+2005-02-02,2004-2005,Puente Alto,-33.61472,-70.54694,17.5,Tránsito de personas/vehículos,0.1,-5,7
+2005-02-04,2004-2005,Puente Alto,-33.58778,-70.52472,19.3,Tránsito de personas/vehículos,0.5,-4,9
+2005-02-08,2004-2005,Puente Alto,-33.59667,-70.54667,19.3,Intencional,0.02,-5,8
+2005-02-13,2004-2005,Pirque,-33.6675,-70.63417,19.3,Tránsito de personas/vehículos,0.2,-9,4
+2005-02-16,2004-2005,La Florida,-33.5425,-70.54556,24.7,Otras,1.2,-5,11
+2005-02-26,2004-2005,Puente Alto,-33.59611,-70.58972,21.4,Tránsito de personas/vehículos,0.1,-7,8
+2005-03-03,2004-2005,Pirque,-33.70472,-70.54861,10.4,Tránsito de personas/vehículos,0.1,-5,2
+2005-04-01,2004-2005,Paine,-33.83028,-70.61556,17.7,Otras,1.0,-8,-5
+2005-04-05,2004-2005,Pirque,-33.64111,-70.60139,18.5,Faenas agrícolas/forestales,1.0,-7,6
+2005-11-10,2005-2006,Puente Alto,-33.61389,-70.60083,20.6,Tránsito de personas/vehículos,1.0,-7,7
+2005-11-16,2005-2006,Puente Alto,-33.62361,-70.55778,17.2,Tránsito de personas/vehículos,0.0,-5,7
+2005-11-22,2005-2006,Puente Alto,-33.61389,-70.60083,20.6,Actividades recreativas,0.1,-7,7
+2005-11-29,2005-2006,Pirque,-33.66778,-70.62333,18.5,Tránsito de personas/vehículos,0.1,-9,4
+2005-12-02,2005-2006,Puente Alto,-33.62306,-70.59028,19.2,Intencional,0.01,-7,7
+2005-12-03,2005-2006,San Bernardo,-33.60444,-70.63306,23.4,Tránsito de personas/vehículos,0.0,-9,8
+2005-12-05,2005-2006,Puente Alto,-33.62306,-70.60083,19.8,Tránsito de personas/vehículos,0.01,-7,7
+2005-12-06,2005-2006,San Bernardo,-33.64917,-70.66611,22.9,Tránsito de personas/vehículos,0.2,-10,5
+2005-12-08,2005-2006,Pirque,-33.69556,-70.55917,11.8,Tránsito de personas/vehículos,0.5,-6,3
+2005-12-10,2005-2006,Puente Alto,-33.60556,-70.54667,18.4,Tránsito de personas/vehículos,0.02,-5,8
+2005-12-12,2005-2006,Puente Alto,-33.55139,-70.54583,23.8,Tránsito de personas/vehículos,0.05,-5,11
+2005-12-16,2005-2006,Puente Alto,-33.59639,-70.55722,19.8,Tránsito de personas/vehículos,0.5,-5,8
+2005-12-20,2005-2006,San Bernardo,-33.63111,-70.66583,23.9,Tránsito de personas/vehículos,0.1,-10,6
+2005-12-25,2005-2006,Puente Alto,-33.64139,-70.57972,17.0,Tránsito de personas/vehículos,0.5,-6,6
+2005-12-25,2005-2006,Buin,-33.70361,-70.63472,17.8,Actividades recreativas,1.2000000000000002,-9,2
+2005-12-29,2005-2006,San Bernardo,-33.65833,-70.65556,21.6,Tránsito de personas/vehículos,0.5,-10,5
+2006-01-01,2005-2006,San Bernardo,-33.65806,-70.67694,23.3,Tránsito de personas/vehículos,1.5,-11,5
+2006-01-04,2005-2006,Puente Alto,-33.60583,-70.53583,17.9,Tránsito de personas/vehículos,0.1,-4,8
+2006-01-07,2005-2006,Puente Alto,-33.56972,-70.52444,21.2,Intencional,3.0,-4,10
+2006-01-08,2005-2006,Puente Alto,-33.59667,-70.54667,19.3,Intencional,3.5,-5,8
+2006-01-11,2005-2006,Puente Alto,-33.57889,-70.52472,20.2,Tránsito de personas/vehículos,0.02,-4,9
+2006-01-17,2005-2006,Puente Alto,-33.62306,-70.60083,19.8,Tránsito de personas/vehículos,0.1,-7,7
+2006-01-17,2005-2006,Puente Alto,-33.59639,-70.55722,19.8,Tránsito de personas/vehículos,0.01,-5,8
+2006-01-25,2005-2006,Pirque,-33.70528,-70.50528,7.1,Otras,1.2,-3,2
+2006-01-26,2005-2006,Puente Alto,-33.5425,-70.53472,24.4,Intencional,4.5,-4,11
+2006-01-27,2005-2006,Buin,-33.71222,-70.66722,20.5,Tránsito de personas/vehículos,1.5,-11,2
+2006-02-05,2005-2006,Pirque,-33.59722,-70.50333,17.7,Intencional,1.0,-3,8
+2006-02-12,2005-2006,Buin,-33.65833,-70.65556,21.6,Tránsito de personas/vehículos,0.1,-10,5
+2006-03-02,2005-2006,Pirque,-33.615,-70.51444,16.2,Tránsito de personas/vehículos,1.0,-3,7
+2006-03-04,2005-2006,Puente Alto,-33.62306,-70.60083,19.8,Tránsito de personas/vehículos,0.1,-7,7
+2006-03-14,2005-2006,Puente Alto,-33.59667,-70.53583,18.8,Otras,0.02,-4,8
+2006-03-18,2005-2006,San Bernardo,-33.64889,-70.67694,23.8,Intencional,0.2,-11,5
+2006-03-22,2005-2006,Pirque,-33.68667,-70.54806,11.5,Otras,4.5,-5,3
+2006-03-24,2005-2006,Buin,-33.68472,-70.69917,24.2,Tránsito de personas/vehículos,0.01,-12,3
+2006-03-26,2005-2006,Puente Alto,-33.59639,-70.55722,19.8,Otras,1.8,-5,8
+2006-04-06,2005-2006,Buin,-33.71222,-70.66722,20.5,Tránsito de personas/vehículos,1.2,-11,2
+2006-04-21,2005-2006,Pirque,-33.66,-70.52611,12.2,Tránsito de personas/vehículos,0.01,-4,5
+2006-05-03,2005-2006,Pirque,-33.615,-70.51444,16.2,Tránsito de personas/vehículos,0.2,-3,7
+2006-05-13,2005-2006,San José de Maipo,-33.78,-70.26917,17.0,Actividades recreativas,0.1,8,-2
+2006-12-05,2006-2007,Pirque,-33.67722,-70.59111,15.4,Tránsito de personas/vehículos,2.0,-7,4
+2006-12-05,2006-2007,Puente Alto,-33.62306,-70.60083,19.8,Actividades recreativas,0.3,-7,7
+2006-12-06,2006-2007,San José de Maipo,-33.58056,-70.38472,19.8,Tránsito de personas/vehículos,2.5,3,9
+2006-12-08,2006-2007,San José de Maipo,-33.69861,-70.31111,14.1,Faenas agrícolas/forestales,0.2,6,2
+2006-12-09,2006-2007,San José de Maipo,-33.60667,-70.46056,16.0,Tránsito de personas/vehículos,0.01,-1,7
+2006-12-10,2006-2007,Pirque,-33.53472,-70.44861,23.9,Intencional,1.4,0,11
+2006-12-10,2006-2007,Paine,-33.74833,-70.66806,20.2,Tránsito de personas/vehículos,0.2,-11,0
+2006-12-10,2006-2007,La Florida,-33.5425,-70.54556,24.7,Tránsito de personas/vehículos,2.0,-5,11
+2006-12-12,2006-2007,Puente Alto,-33.5875,-70.55722,20.6,Intencional,0.2,-5,9
+2006-12-16,2006-2007,Puente Alto,-33.60611,-70.51444,17.1,Tránsito de personas/vehículos,1.0,-3,7
+2006-12-17,2006-2007,Puente Alto,-33.59639,-70.55722,19.8,Intencional,0.02,-5,8
+2006-12-18,2006-2007,Pirque,-33.67778,-70.54806,12.1,Quemas,1.7999999999999998,-5,4
+2006-12-19,2006-2007,Pirque,-33.67722,-70.59111,15.4,Actividades recreativas,0.2,-7,4
+2006-12-19,2006-2007,Puente Alto,-33.55139,-70.54583,23.8,Tránsito de personas/vehículos,0.01,-5,11
+2006-12-19,2006-2007,San Bernardo,-33.63083,-70.67667,24.8,Tránsito de personas/vehículos,1.4,-11,6
+2006-12-19,2006-2007,Pirque,-33.68556,-70.63444,18.5,Tránsito de personas/vehículos,2.8,-9,3
+2006-12-20,2006-2007,Pirque,-33.68556,-70.64528,19.4,Tránsito de personas/vehículos,0.8,-10,3
+2007-01-08,2006-2007,Puente Alto,-33.56972,-70.52444,21.2,Intencional,2.2,-4,10
+2007-01-12,2006-2007,San José de Maipo,-33.57111,-70.40611,20.3,Tránsito de personas/vehículos,0.5,2,9
+2007-01-13,2006-2007,Puente Alto,-33.58778,-70.53556,19.7,Tránsito de personas/vehículos,1.0,-4,9
+2007-01-23,2006-2007,Puente Alto,-33.61417,-70.59,19.9,Tránsito de personas/vehículos,1.2000000000000002,-7,7
+2007-01-25,2006-2007,Puente Alto,-33.59694,-70.525,18.4,Actividades recreativas,0.2,-4,8
+2007-01-25,2006-2007,Puente Alto,-33.61472,-70.54694,17.5,Tránsito de personas/vehículos,0.1,-5,7
+2007-01-29,2006-2007,Puente Alto,-33.54278,-70.52417,24.0,Tránsito de personas/vehículos,0.8,-4,11
+2007-01-30,2006-2007,Pirque,-33.71306,-70.6025,14.7,Actividades recreativas,2.0,-8,2
+2007-01-31,2006-2007,Pirque,-33.71306,-70.6025,14.7,Tránsito de personas/vehículos,0.5,-8,2
+2007-02-02,2006-2007,Peñalolén,-33.54278,-70.52417,24.0,Tránsito de personas/vehículos,2.0,-4,11
+2007-02-03,2006-2007,Puente Alto,-33.59667,-70.54667,19.3,Tránsito de personas/vehículos,0.5,-5,8
+2007-02-04,2006-2007,Pirque,-33.64972,-70.62306,19.5,Tránsito de personas/vehículos,0.8,-9,5
+2007-02-07,2006-2007,San José de Maipo,-33.59722,-70.50333,17.7,Tránsito de personas/vehículos,2.0,-3,8
+2007-02-09,2006-2007,Buin,-33.69444,-70.65611,20.0,Tránsito de personas/vehículos,2.0,-10,3
+2007-02-14,2006-2007,Pirque,-33.61528,-70.50389,15.8,Tránsito de personas/vehículos,1.7999999999999998,-3,7
+2007-02-23,2006-2007,Puente Alto,-33.54278,-70.52417,24.0,Otras,0.01,-4,11
+2007-02-25,2006-2007,Paine,-33.81306,-70.55056,11.6,Tránsito de personas/vehículos,2.5,-5,-4
+2007-03-01,2006-2007,Puente Alto,-33.60556,-70.54667,18.4,Tránsito de personas/vehículos,0.0999999999999999,-5,8
+2007-03-17,2006-2007,Puente Alto,-33.61472,-70.54694,17.5,Tránsito de personas/vehículos,1.2,-5,7
+2007-03-23,2006-2007,Buin,-33.685,-70.6775,22.2,Tránsito de personas/vehículos,1.0,-11,3
+2007-04-28,2006-2007,San José de Maipo,-33.67111,-70.33222,14.0,Tránsito de personas/vehículos,0.4,5,4
+2007-11-23,2007-2008,Puente Alto,-33.55139,-70.54583,23.8,Intencional,0.1,-5,11
+2007-11-24,2007-2008,Puente Alto,-33.57889,-70.51389,19.9,Intencional,0.5,-3,9
+2007-12-01,2007-2008,La Florida,-33.55111,-70.56722,24.6,Tránsito de personas/vehículos,0.7999999999999999,-6,11
+2007-12-12,2007-2008,La Florida,-33.54278,-70.52417,24.0,Intencional,0.2,-4,11
+2007-12-12,2007-2008,Puente Alto,-33.55167,-70.535,23.4,Tránsito de personas/vehículos,0.1,-4,11
+2007-12-16,2007-2008,San José de Maipo,-33.56194,-70.41667,21.1,Intencional,10.0,1,10
+2007-12-17,2007-2008,Puente Alto,-33.59667,-70.54667,19.3,Faenas agrícolas/forestales,0.8,-5,8
+2007-12-22,2007-2008,San José de Maipo,-33.54444,-70.37333,23.9,Otras,2.2,3,11
+2007-12-29,2007-2008,La Florida,-33.55111,-70.56722,24.6,Tránsito de personas/vehículos,1.0,-6,11
+2008-01-01,2007-2008,San Bernardo,-33.68528,-70.65611,20.4,Otras,3.5,-10,3
+2008-01-02,2007-2008,San José de Maipo,-33.58833,-70.4925,18.4,Tránsito de personas/vehículos,2.1,-2,8
+2008-01-13,2007-2008,Pirque,-33.72333,-70.50556,5.9,Actividades recreativas,1.5,-3,1
+2008-01-28,2007-2008,San José de Maipo,-33.64417,-70.3425,15.4,Intencional,0.2,4,5
+2008-02-02,2007-2008,Pirque,-33.70528,-70.51611,7.9,Intencional,0.5,-4,2
+2008-02-19,2007-2008,Pirque,-33.71389,-70.53778,9.1,Otras,0.0999999999999999,-5,2
+2008-02-19,2007-2008,Puente Alto,-33.58778,-70.53556,19.7,Tránsito de personas/vehículos,0.1,-4,9
+2008-02-19,2007-2008,Puente Alto,-33.58778,-70.53556,19.7,Intencional,0.05,-4,9
+2008-02-20,2007-2008,Buin,-33.65833,-70.65556,21.6,Tránsito de personas/vehículos,0.5,-10,5
+2008-02-23,2007-2008,Pirque,-33.68611,-70.59139,14.9,Tránsito de personas/vehículos,0.1,-7,3
+2008-02-24,2007-2008,Pirque,-33.65944,-70.56917,14.9,Tránsito de personas/vehículos,1.2,-6,5
+2008-03-20,2007-2008,San José de Maipo,-33.58833,-70.4925,18.4,Otras,1.5,-2,8
+2008-04-22,2007-2008,Paine,-33.84778,-70.64833,21.3,Quemas,0.5,-10,-6
+2008-10-07,2008-2009,La Florida,-33.53361,-70.52389,25.0,Faenas agrícolas/forestales,0.1,-4,12
+2008-10-07,2008-2009,Puente Alto,-33.58806,-70.51417,19.0,Otras,0.2,-3,9
+2008-11-12,2008-2009,Puente Alto,-33.59667,-70.54667,19.3,Actividades recreativas,0.5,-5,8
+2008-11-30,2008-2009,Peñalolén,-33.59694,-70.525,18.4,Tránsito de personas/vehículos,3.5,-4,8
+2008-12-15,2008-2009,San José de Maipo,-33.58972,-70.3525,20.0,Actividades recreativas,0.01,4,8
+2008-12-23,2008-2009,Pirque,-33.63306,-70.515,14.3,Faenas agrícolas/forestales,5.0,-4,6
+2008-12-31,2008-2009,Puente Alto,-33.55139,-70.54583,23.8,Tránsito de personas/vehículos,0.2,-5,11
+2009-01-02,2008-2009,Pirque,-33.65861,-70.63389,19.8,Faenas agrícolas/forestales,2.0,-9,5
+2009-01-04,2008-2009,Pirque,-33.70528,-70.50528,7.1,Tránsito de personas/vehículos,0.1,-3,2
+2009-01-14,2008-2009,La Florida,-33.53361,-70.52389,25.0,Tránsito de personas/vehículos,0.1,-4,12
+2009-01-21,2008-2009,Puente Alto,-33.59639,-70.55722,19.8,Intencional,0.1,-5,8
+2009-01-29,2008-2009,Buin,-33.70278,-70.69944,23.7,Tránsito de personas/vehículos,1.5,-12,2
+2009-01-29,2008-2009,Puente Alto,-33.59667,-70.54667,19.3,Tránsito de personas/vehículos,0.2,-5,8
+2009-01-29,2008-2009,Puente Alto,-33.57889,-70.52472,20.2,Tránsito de personas/vehículos,1.0,-4,9
+2009-02-06,2008-2009,Puente Alto,-33.54306,-70.5025,23.5,Tránsito de personas/vehículos,10.5,-3,11
+2009-02-08,2008-2009,Puente Alto,-33.61472,-70.53611,17.0,Tránsito de personas/vehículos,1.0,-4,7
+2009-02-12,2008-2009,Puente Alto,-33.59667,-70.53583,18.8,Otras,6.0,-4,8
+2009-02-17,2008-2009,Puente Alto,-33.58778,-70.52472,19.3,Intencional,2.6,-4,9
+2009-03-09,2008-2009,San José de Maipo,-33.58,-70.41694,19.1,Actividades recreativas,0.5,1,9
+2009-03-12,2008-2009,Pirque,-33.66833,-70.58028,15.1,Tránsito de personas/vehículos,0.01,-7,4
+2009-04-02,2008-2009,Puente Alto,-33.5425,-70.53472,24.4,Tránsito de personas/vehículos,0.5,-4,11
+2009-04-18,2008-2009,San José de Maipo,-33.64417,-70.32111,16.8,Tránsito de personas/vehículos,1.0,5,5
+2009-06-02,2008-2009,Pirque,-33.71417,-70.51639,7.3,Actividades recreativas,0.1,-4,1
+2009-11-13,2009-2010,Puente Alto,-33.62306,-70.60083,19.8,Actividades recreativas,0.2,-7,7
+2009-11-23,2009-2010,San Bernardo,-33.60417,-70.65444,24.9,Intencional,0.1,-10,8
+2009-11-25,2009-2010,Puente Alto,-33.60556,-70.54667,18.4,Intencional,1.5,-5,8
+2009-12-04,2009-2010,Buin,-33.64944,-70.63389,20.4,Tránsito de personas/vehículos,4.0,-9,5
+2009-12-09,2009-2010,Puente Alto,-33.58778,-70.52472,19.3,Tránsito de personas/vehículos,0.2,-4,9
+2009-12-13,2009-2010,San Bernardo,-33.61333,-70.65472,24.3,Intencional,0.2,-10,7
+2009-12-27,2009-2010,Buin,-33.66694,-70.67722,23.0,Tránsito de personas/vehículos,0.1,-11,4
+2009-12-29,2009-2010,Puente Alto,-33.5875,-70.55722,20.6,Tránsito de personas/vehículos,1.5,-5,9
+2009-12-30,2009-2010,Pirque,-33.68639,-70.56972,13.1,Actividades recreativas,0.01,-6,3
+2009-12-31,2009-2010,Pirque,-33.67639,-70.645,19.8,Tránsito de personas/vehículos,4.0,-10,4
+2009-12-31,2009-2010,Buin,-33.65833,-70.65556,21.6,Tránsito de personas/vehículos,0.05,-10,5
+2009-12-31,2009-2010,Paine,-33.87556,-70.58389,18.7,Intencional,2.0,-7,-7
+2010-01-01,2009-2010,Puente Alto,-33.57806,-70.58944,23.1,Otras,2.0,-7,9
+2010-01-01,2009-2010,Pirque,-33.69472,-70.63472,18.2,Intencional,0.2,-9,3
+2010-01-03,2009-2010,Puente Alto,-33.56056,-70.53528,22.5,Tránsito de personas/vehículos,2.0,-4,10
+2010-01-03,2009-2010,Puente Alto,-33.57889,-70.52472,20.2,Intencional,0.1,-4,9
+2010-01-05,2009-2010,Paine,-33.83028,-70.61556,17.7,Tránsito de personas/vehículos,1.0,-8,-5
+2010-01-05,2009-2010,Pirque,-33.71444,-70.49472,5.7,Actividades recreativas,0.01,-3,1
+2010-01-12,2009-2010,Paine,-33.82111,-70.61556,17.2,Actividades recreativas,2.0,-8,-4
+2010-01-14,2009-2010,San José de Maipo,-33.57944,-70.48167,19.2,Intencional,7.0,-2,9
+2010-01-20,2009-2010,Pirque,-33.65861,-70.63389,19.8,Tránsito de personas/vehículos,0.5,-9,5
+2010-02-01,2009-2010,Buin,-33.69417,-70.66694,21.0,Intencional,13.0,-11,3
+2010-02-11,2009-2010,Buin,-33.70306,-70.68861,22.7,Intencional,0.2,-12,2
+2010-02-21,2009-2010,San José de Maipo,-33.58972,-70.36333,19.5,Actividades recreativas,1.6,4,8
+2010-02-24,2009-2010,Buin,-33.68528,-70.66694,21.3,Otras,2.5,-11,3
+2010-04-12,2009-2010,Curacaví,-33.68694,-70.52667,10.0,Quemas,0.8,-4,3
+2010-10-17,2010-2011,San José de Maipo,-33.57083,-70.4275,20.0,Quemas,0.6000000000000001,1,9
+2010-11-22,2010-2011,Buin,-33.72139,-70.65667,19.4,Tránsito de personas/vehículos,0.1,-10,1
+2010-11-23,2010-2011,Puente Alto,-33.62333,-70.56861,17.9,Tránsito de personas/vehículos,0.5,-6,7
+2010-12-03,2010-2011,Puente Alto,-33.5425,-70.54556,24.7,Tránsito de personas/vehículos,1.0,-5,11
+2010-12-03,2010-2011,Puente Alto,-33.55139,-70.54583,23.8,Tránsito de personas/vehículos,0.3,-5,11
+2010-12-07,2010-2011,Puente Alto,-33.5425,-70.53472,24.4,Tránsito de personas/vehículos,2.5,-4,11
+2010-12-08,2010-2011,La Florida,-33.55139,-70.55639,24.2,Tránsito de personas/vehículos,0.3,-5,11
+2010-12-11,2010-2011,Puente Alto,-33.57889,-70.52472,20.2,Tránsito de personas/vehículos,0.1,-4,9
+2010-12-21,2010-2011,Puente Alto,-33.55139,-70.54583,23.8,Tránsito de personas/vehículos,1.0,-5,11
+2010-12-26,2010-2011,Buin,-33.64917,-70.65528,22.1,Tránsito de personas/vehículos,0.1,-10,5
+2011-01-03,2010-2011,Pirque,-33.62306,-70.59028,19.2,Tránsito de personas/vehículos,2.1,-7,7
+2011-01-10,2010-2011,Puente Alto,-33.57889,-70.52472,20.2,Tránsito de personas/vehículos,0.2,-4,9
+2011-01-11,2010-2011,Pirque,-33.74972,-70.57083,11.2,Otras,1.8,-6,0
+2011-01-14,2010-2011,Puente Alto,-33.60556,-70.5575,18.9,Tránsito de personas/vehículos,0.8999999999999999,-5,8
+2011-01-14,2010-2011,Pirque,-33.64111,-70.59056,17.8,Tránsito de personas/vehículos,0.01,-7,6
+2011-01-16,2010-2011,La Florida,-33.56083,-70.52444,22.1,Actividades recreativas,4.5,-4,10
+2011-01-16,2010-2011,Pirque,-33.71417,-70.51639,7.3,Tránsito de personas/vehículos,2.5,-4,1
+2011-01-19,2010-2011,Puente Alto,-33.56083,-70.52444,22.1,Tránsito de personas/vehículos,0.4,-4,10
+2011-01-20,2010-2011,San Bernardo,-33.64917,-70.66611,22.9,Tránsito de personas/vehículos,0.5,-10,5
+2011-01-20,2010-2011,Pirque,-33.705,-70.52694,8.7,Tránsito de personas/vehículos,0.2,-4,2
+2011-01-23,2010-2011,Puente Alto,-33.56083,-70.51361,21.8,Tránsito de personas/vehículos,0.1,-3,10
+2011-01-23,2010-2011,San José de Maipo,-33.57944,-70.47083,19.1,Actividades recreativas,15.0,-1,9
+2011-01-27,2010-2011,San Bernardo,-33.69361,-70.71,24.9,Quemas,0.8,-13,3
+2011-01-28,2010-2011,Puente Alto,-33.62333,-70.57944,18.5,Tránsito de personas/vehículos,0.01,-6,7
+2011-01-30,2010-2011,San José de Maipo,-33.58833,-70.48167,18.2,Tránsito de personas/vehículos,0.01,-2,8
+2011-02-01,2010-2011,Paine,-33.84,-70.55083,13.7,Actividades recreativas,45.0,-5,-6
+2011-02-01,2010-2011,Pirque,-33.69556,-70.55917,11.8,Tránsito de personas/vehículos,0.1,-6,3
+2011-02-02,2010-2011,Puente Alto,-33.60556,-70.54667,18.4,Tránsito de personas/vehículos,1.5,-5,8
+2011-02-06,2010-2011,Paine,-33.84861,-70.59444,17.3,Otras,1.6,-7,-6
+2011-02-06,2010-2011,Pirque,-33.705,-70.52694,8.7,Tránsito de personas/vehículos,0.1,-4,2
+2011-02-08,2010-2011,San José de Maipo,-33.61694,-70.35278,17.3,Tránsito de personas/vehículos,0.1,4,7
+2011-02-20,2010-2011,San José de Maipo,-33.58,-70.42778,19.0,Tránsito de personas/vehículos,1.5,1,9
+2011-02-22,2010-2011,Buin,-33.67611,-70.6775,22.6,Tránsito de personas/vehículos,0.1,-11,4
+2011-02-26,2010-2011,Puente Alto,-33.60556,-70.54667,18.4,Tránsito de personas/vehículos,0.3,-5,8
+2011-03-02,2010-2011,Buin,-33.7125,-70.64583,18.6,Tránsito de personas/vehículos,172.0,-10,2
+2011-03-04,2010-2011,Paine,-33.90194,-70.63861,24.3,Tránsito de personas/vehículos,30.0,-9,-9
+2011-03-18,2010-2011,San José de Maipo,-33.73444,-70.31167,12.9,Faenas agrícolas/forestales,2.5,6,0
+2011-03-24,2010-2011,Puente Alto,-33.56972,-70.52444,21.2,Quemas,16.0,-4,10
+2011-04-09,2010-2011,San José de Maipo,-33.58083,-70.35222,20.9,Tránsito de personas/vehículos,0.1,4,9
+2011-11-12,2011-2012,Puente Alto,-33.55167,-70.535,23.4,Intencional,2.0,-4,11
+2011-11-30,2011-2012,Pirque,-33.5975,-70.48194,17.2,Otras,2.0,-2,8
+2011-11-30,2011-2012,Puente Alto,-33.59722,-70.50333,17.7,Intencional,1.2000000000000002,-3,8
+2011-12-13,2011-2012,Pirque,-33.67722,-70.59111,15.4,Tránsito de personas/vehículos,0.5,-7,4
+2011-12-13,2011-2012,Pirque,-33.68639,-70.56972,13.1,Tránsito de personas/vehículos,0.1,-6,3
+2011-12-18,2011-2012,Buin,-33.77556,-70.65778,19.4,Tránsito de personas/vehículos,0.6000000000000001,-10,-2
+2011-12-20,2011-2012,Pirque,-33.705,-70.52694,8.7,Tránsito de personas/vehículos,0.8,-4,2
+2011-12-24,2011-2012,San Bernardo,-33.62333,-70.56861,17.9,Tránsito de personas/vehículos,0.1,-6,7
+2011-12-25,2011-2012,Pirque,-33.73194,-70.53806,8.4,Tránsito de personas/vehículos,0.1,-5,1
+2011-12-26,2011-2012,Buin,-33.67611,-70.65167,20.4,Actividades recreativas,0.2,-10,4
+2011-12-26,2011-2012,Buin,-33.67611,-70.65167,20.4,Actividades recreativas,0.1,-10,4
+2011-12-27,2011-2012,Puente Alto,-33.57861,-70.53556,20.6,Tránsito de personas/vehículos,0.2,-4,9
+2011-12-27,2011-2012,Pirque,-33.64139,-70.57972,17.0,Quemas,0.01,-6,6
+2012-01-01,2011-2012,Pirque,-33.60611,-70.50361,16.8,Tránsito de personas/vehículos,0.01,-3,7
+2012-01-03,2011-2012,Buin,-33.64917,-70.65528,22.1,Actividades recreativas,0.3,-10,5
+2012-01-04,2011-2012,San Bernardo,-33.63083,-70.67667,24.8,Tránsito de personas/vehículos,0.3,-11,6
+2012-01-09,2011-2012,Puente Alto,-33.55139,-70.54583,23.8,Intencional,0.8,-5,11
+2012-01-11,2011-2012,Buin,-33.69444,-70.64528,19.1,Tránsito de personas/vehículos,13.0,-10,3
+2012-01-23,2011-2012,Puente Alto,-33.60556,-70.54667,18.4,Tránsito de personas/vehículos,0.1,-5,8
+2012-01-24,2011-2012,Puente Alto,-33.58778,-70.53556,19.7,Tránsito de personas/vehículos,1.2,-4,9
+2012-01-26,2011-2012,Pirque,-33.71444,-70.50556,6.5,Tránsito de personas/vehículos,0.2,-3,1
+2012-02-09,2011-2012,San José de Maipo,-33.58056,-70.37389,20.1,Tránsito de personas/vehículos,3.0,3,9
+2012-02-09,2011-2012,San José de Maipo,-33.58833,-70.4925,18.4,Tránsito de personas/vehículos,0.2,-2,8
+2012-03-02,2011-2012,Puente Alto,-33.57889,-70.52472,20.2,Tránsito de personas/vehículos,5.0,-4,9
+2012-06-12,2011-2012,Pirque,-33.62417,-70.50389,14.9,Tránsito de personas/vehículos,0.2,-3,6
+2012-11-02,2012-2013,San José de Maipo,-33.76389,-70.27389,16.4,Tránsito de personas/vehículos,0.4,8,-1
+2012-11-15,2012-2013,La Florida,-33.5525,-70.54667,23.7,Tránsito de personas/vehículos,0.3,-5,10
+2012-11-25,2012-2013,San José de Maipo,-33.59889,-70.38028,18.0,Tránsito de personas/vehículos,12.0,3,8
+2012-12-04,2012-2013,Puente Alto,-33.55667,-70.52889,22.7,Tránsito de personas/vehículos,2.0,-4,10
+2012-12-05,2012-2013,Puente Alto,-33.57694,-70.54833,21.3,Desconocida,3.0,-5,9
+2012-12-10,2012-2013,San José de Maipo,-33.58278,-70.46083,18.6,Tránsito de personas/vehículos,1.0,-1,9
+2012-12-16,2012-2013,Paine,-33.83167,-70.60333,16.8,Actividades recreativas,5.0,-8,-5
+2013-01-01,2012-2013,Pirque,-33.70889,-70.53889,9.4,Desconocida,0.1,-5,2
+2013-01-02,2012-2013,Puente Alto,-33.5525,-70.54694,23.7,Tránsito de personas/vehículos,1.2000000000000002,-5,10
+2013-01-07,2012-2013,San José de Maipo,-33.59472,-70.38944,18.2,Tránsito de personas/vehículos,0.4,2,8
+2013-01-11,2012-2013,Pirque,-33.62556,-70.56333,17.4,Tránsito de personas/vehículos,1.5,-6,6
+2013-01-13,2012-2013,Puente Alto,-33.59778,-70.55639,19.6,Tránsito de personas/vehículos,0.1,-5,8
+2013-01-28,2012-2013,San José de Maipo,-33.58028,-70.43583,18.9,Intencional,5.0,0,9
+2013-01-28,2012-2013,San José de Maipo,-33.58889,-70.48972,18.3,Tránsito de personas/vehículos,0.6000000000000001,-2,8
+2013-01-28,2012-2013,San José de Maipo,-33.68,-70.345,12.4,Intencional,0.1,4,3
+2013-02-12,2012-2013,Pirque,-33.70278,-70.53389,9.4,Tránsito de personas/vehículos,1.2000000000000002,-4,2
+2013-02-24,2012-2013,Puente Alto,-33.57917,-70.54583,21.0,Tránsito de personas/vehículos,0.5,-5,9
+2013-02-24,2012-2013,Paine,-33.80806,-70.62361,17.3,Tránsito de personas/vehículos,0.01,-9,-4
+2013-03-10,2012-2013,San José de Maipo,-33.605,-70.3575,18.3,Actividades recreativas,40.0,4,8
+2013-03-12,2012-2013,Paine,-33.89361,-70.65583,24.8,Tránsito de personas/vehículos,2.1,-10,-8
+2013-04-10,2012-2013,Buin,-33.74917,-70.66972,20.3,Otras,0.8,-11,0
+2013-04-14,2012-2013,Pirque,-33.63056,-70.56944,17.3,Tránsito de personas/vehículos,1.0,-6,6
+2013-04-29,2012-2013,Pirque,-33.60917,-70.48917,16.1,Tránsito de personas/vehículos,0.1,-2,7
+2013-10-04,2013-2014,San José de Maipo,-33.63278,-70.34278,16.4,Tránsito de personas/vehículos,0.01,4,6
+2013-11-13,2013-2014,Puente Alto,-33.58111,-70.53222,20.3,Tránsito de personas/vehículos,1.5,-4,9
+2013-11-13,2013-2014,Puente Alto,-33.58083,-70.53389,20.4,Intencional,1.5,-4,9
+2013-11-15,2013-2014,Pirque,-33.74583,-70.52444,6.9,Tránsito de personas/vehículos,0.5,-4,0
+2013-11-27,2013-2014,Puente Alto,-33.55833,-70.52778,22.5,Quemas,10.0,-4,10
+2013-11-28,2013-2014,La Florida,-33.54667,-70.55139,24.5,Tránsito de personas/vehículos,3.5,-5,11
+2013-11-28,2013-2014,San José de Maipo,-33.59778,-70.37361,18.3,Tránsito de personas/vehículos,4.0,3,8
+2013-11-29,2013-2014,San José de Maipo,-33.59583,-70.49194,17.6,Tránsito de personas/vehículos,2.5,-2,8
+2013-11-30,2013-2014,San José de Maipo,-33.58556,-70.41333,18.6,Tránsito de personas/vehículos,453.0,1,9
+2013-12-17,2013-2014,San José de Maipo,-33.58694,-70.47639,18.3,Tránsito de personas/vehículos,0.3,-2,9
+2013-12-17,2013-2014,San José de Maipo,-33.57806,-70.42167,19.3,Intencional,4.0,1,9
+2013-12-17,2013-2014,San José de Maipo,-33.57722,-70.42722,19.3,Tránsito de personas/vehículos,15.0,1,9
+2013-12-21,2013-2014,San José de Maipo,-33.57556,-70.43778,19.4,Otras,3.0,0,9
+2014-01-03,2013-2014,Pirque,-33.69722,-70.56361,12.0,Tránsito de personas/vehículos,0.1,-6,2
+2014-01-05,2013-2014,Puente Alto,-33.56917,-70.52778,21.4,Tránsito de personas/vehículos,1.0,-4,10
+2014-01-08,2013-2014,Puente Alto,-33.57361,-70.50778,20.3,Intencional,727.71,-3,9
+2014-01-15,2013-2014,Pirque,-33.64111,-70.555,15.5,Tránsito de personas/vehículos,0.5,-5,6
+2014-01-20,2013-2014,Puente Alto,-33.57417,-70.51444,20.4,Intencional,0.01,-3,9
+2014-01-27,2013-2014,Buin,-33.72889,-70.66722,20.2,Tránsito de personas/vehículos,1.0,-11,1
+2014-02-09,2013-2014,La Florida,-33.54806,-70.55417,24.4,Líneas eléctricas,0.1,-5,11
+2014-02-20,2013-2014,Buin,-33.68778,-70.68611,22.9,Tránsito de personas/vehículos,0.1,-11,3
+2014-03-10,2013-2014,Buin,-33.68667,-70.67528,22.0,Tránsito de personas/vehículos,0.02,-11,3
+2014-03-12,2013-2014,San José de Maipo,-33.77361,-70.26278,17.5,Tránsito de personas/vehículos,0.6000000000000001,8,-2
+2014-03-12,2013-2014,San José de Maipo,-33.75056,-70.28194,15.5,Otras,0.8,7,-1
+2014-03-12,2013-2014,San José de Maipo,-33.73139,-70.31417,12.7,Tránsito de personas/vehículos,0.2,6,1
+2014-03-17,2013-2014,Paine,-33.815,-70.64194,19.2,Actividades recreativas,3.0,-9,-4
+2014-03-18,2013-2014,Puente Alto,-33.60667,-70.53056,17.6,Tránsito de personas/vehículos,0.01,-4,7
+2014-03-25,2013-2014,Puente Alto,-33.57528,-70.51472,20.3,Tránsito de personas/vehículos,0.02,-3,9
+2014-03-25,2013-2014,San José de Maipo,-33.59528,-70.3875,18.2,Tránsito de personas/vehículos,0.02,2,8
+2014-03-28,2013-2014,San José de Maipo,-33.66833,-70.34944,13.0,Otras,0.1,4,4
+2014-03-29,2013-2014,San José de Maipo,-33.59528,-70.38889,18.1,Tránsito de personas/vehículos,15.0,2,8
+2014-05-15,2013-2014,Puente Alto,-33.62333,-70.59889,19.7,Actividades recreativas,0.01,-7,7
+2014-05-15,2013-2014,Puente Alto,-33.57389,-70.51472,20.5,Intencional,0.3,-3,9
+2014-10-26,2014-2015,Buin,-33.725,-70.66833,20.4,Tránsito de personas/vehículos,0.1,-11,1
+2014-11-07,2014-2015,Pirque,-33.72556,-70.50861,6.1,Faenas agrícolas/forestales,0.01,-3,1
+2014-11-10,2014-2015,Buin,-33.74611,-70.67778,21.1,Tránsito de personas/vehículos,0.3,-11,0
+2014-11-10,2014-2015,Puente Alto,-33.55861,-70.55333,23.3,Tránsito de personas/vehículos,0.01,-5,10
+2014-11-11,2014-2015,Puente Alto,-33.61472,-70.54722,17.5,Tránsito de personas/vehículos,0.01,-5,7
+2014-11-17,2014-2015,Puente Alto,-33.62667,-70.60278,19.7,Tránsito de personas/vehículos,0.1,-8,6
+2014-11-21,2014-2015,Puente Alto,-33.61556,-70.55028,17.6,Tránsito de personas/vehículos,0.2,-5,7
+2014-11-22,2014-2015,San José de Maipo,-33.67917,-70.3425,12.7,Actividades recreativas,0.03,4,3
+2014-12-01,2014-2015,Pirque,-33.70556,-70.55194,10.6,Faenas agrícolas/forestales,1.0,-5,2
+2014-12-03,2014-2015,Puente Alto,-33.57417,-70.545,21.4,Tránsito de personas/vehículos,0.4,-5,9
+2014-12-03,2014-2015,Puente Alto,-33.60361,-70.54917,18.7,Tránsito de personas/vehículos,1.0,-5,8
+2014-12-03,2014-2015,Puente Alto,-33.62528,-70.59111,19.0,Tránsito de personas/vehículos,0.01,-7,6
+2014-12-05,2014-2015,Puente Alto,-33.60389,-70.5525,18.8,Tránsito de personas/vehículos,2.2,-5,8
+2014-12-06,2014-2015,Puente Alto,-33.60528,-70.52361,17.5,Quemas,0.02,-4,8
+2014-12-06,2014-2015,Pirque,-33.72583,-70.58056,12.4,Otras,1.2000000000000002,-7,1
+2014-12-06,2014-2015,San José de Maipo,-33.5775,-70.43944,19.2,Actividades recreativas,0.01,0,9
+2014-12-07,2014-2015,Puente Alto,-33.6175,-70.555,17.6,Tránsito de personas/vehículos,0.5,-5,7
+2014-12-07,2014-2015,Puente Alto,-33.63972,-70.61111,19.3,Tránsito de personas/vehículos,0.01,-8,6
+2014-12-09,2014-2015,Puente Alto,-33.62278,-70.60417,20.1,Intencional,0.01,-8,7
+2014-12-09,2014-2015,Puente Alto,-33.65667,-70.58194,16.0,Tránsito de personas/vehículos,0.01,-7,5
+2014-12-12,2014-2015,Puente Alto,-33.61556,-70.54972,17.6,Tránsito de personas/vehículos,0.01,-5,7
+2014-12-15,2014-2015,Puente Alto,-33.55139,-70.54583,23.8,Tránsito de personas/vehículos,1.3,-5,11
+2014-12-16,2014-2015,Buin,-33.73194,-70.68222,21.6,Tránsito de personas/vehículos,0.1,-11,1
+2014-12-17,2014-2015,Puente Alto,-33.59778,-70.55639,19.6,Tránsito de personas/vehículos,0.2,-5,8
+2014-12-22,2014-2015,Puente Alto,-33.62444,-70.60528,20.0,Tránsito de personas/vehículos,0.1,-8,6
+2014-12-23,2014-2015,Puente Alto,-33.58861,-70.48139,18.2,Tránsito de personas/vehículos,1.0,-2,8
+2014-12-26,2014-2015,San José de Maipo,-33.65583,-70.35944,13.4,Tránsito de personas/vehículos,0.01,4,5
+2014-12-28,2014-2015,Pirque,-33.69278,-70.55222,11.4,Intencional,4.8,-5,3
+2014-12-30,2014-2015,Pirque,-33.7,-70.53611,9.7,Tránsito de personas/vehículos,0.2,-4,2
+2015-01-01,2014-2015,Pirque,-33.67722,-70.52389,10.6,Tránsito de personas/vehículos,1.0,-4,4
+2015-01-02,2014-2015,Puente Alto,-33.61472,-70.54694,17.5,Tránsito de personas/vehículos,0.05,-5,7
+2015-01-02,2014-2015,San Bernardo,-33.64056,-70.63361,20.9,Tránsito de personas/vehículos,0.01,-9,6
+2015-01-02,2014-2015,Puente Alto,-33.60139,-70.55611,19.2,Intencional,0.01,-5,8
+2015-01-02,2014-2015,Pirque,-33.67889,-70.58389,14.7,Actividades recreativas,0.01,-7,3
+2015-01-03,2014-2015,Puente Alto,-33.61528,-70.54917,17.6,Quemas,1.0,-5,7
+2015-01-03,2014-2015,Pirque,-33.68111,-70.52444,10.3,Tránsito de personas/vehículos,5.0,-4,3
+2015-01-04,2014-2015,San José de Maipo,-33.78583,-70.23,20.7,Tránsito de personas/vehículos,0.05,10,-2
+2015-01-07,2014-2015,San José de Maipo,-33.73444,-70.31361,12.7,Tránsito de personas/vehículos,0.1,6,0
+2015-01-08,2014-2015,Pirque,-33.60639,-70.48889,16.4,Tránsito de personas/vehículos,0.1,-2,7
+2015-01-08,2014-2015,Puente Alto,-33.60944,-70.53833,17.6,Tránsito de personas/vehículos,0.01,-5,7
+2015-01-08,2014-2015,Puente Alto,-33.59639,-70.55722,19.8,Tránsito de personas/vehículos,0.01,-5,8
+2015-01-13,2014-2015,San José de Maipo,-33.59472,-70.38778,18.2,Tránsito de personas/vehículos,0.5,2,8
+2015-01-14,2014-2015,Puente Alto,-33.61222,-70.54472,17.7,Tránsito de personas/vehículos,0.8,-5,7
+2015-01-14,2014-2015,Pirque,-33.68361,-70.56583,13.0,Tránsito de personas/vehículos,1.0,-6,3
+2015-01-15,2014-2015,Puente Alto,-33.62333,-70.605,20.1,Tránsito de personas/vehículos,0.05,-8,7
+2015-01-16,2014-2015,San Bernardo,-33.65444,-70.67278,23.2,Tránsito de personas/vehículos,0.01,-11,5
+2015-01-20,2014-2015,Buin,-33.6775,-70.66306,21.3,Tránsito de personas/vehículos,1.0,-10,4
+2015-01-22,2014-2015,San José de Maipo,-33.58194,-70.42889,18.8,Tránsito de personas/vehículos,2.5,0,9
+2015-01-28,2014-2015,Pirque,-33.65167,-70.62889,19.8,Actividades recreativas,4.5,-9,5
+2015-01-29,2014-2015,Puente Alto,-33.63194,-70.58194,17.9,Tránsito de personas/vehículos,0.1,-7,6
+2015-01-29,2014-2015,San José de Maipo,-33.65611,-70.34306,14.4,Otras,4.0,4,5
+2015-01-30,2014-2015,Puente Alto,-33.6,-70.55611,19.4,Tránsito de personas/vehículos,1.0,-5,8
+2015-02-01,2014-2015,Pirque,-33.74278,-70.57583,11.7,Quemas,15.2,-6,0
+2015-02-02,2014-2015,Pirque,-33.74417,-70.57167,11.3,Tránsito de personas/vehículos,0.01,-6,0
+2015-02-02,2014-2015,Pirque,-33.64861,-70.62861,20.0,Tránsito de personas/vehículos,5.0,-9,5
+2015-02-03,2014-2015,San Bernardo,-33.65,-70.66528,22.8,Tránsito de personas/vehículos,0.01,-10,5
+2015-02-05,2014-2015,San José de Maipo,-33.73194,-70.30667,13.4,Tránsito de personas/vehículos,0.01,6,1
+2015-02-14,2014-2015,Puente Alto,-33.58306,-70.54389,20.5,Tránsito de personas/vehículos,0.5,-5,9
+2015-02-19,2014-2015,Pirque,-33.70528,-70.55694,11.1,Tránsito de personas/vehículos,1.0,-5,2
+2015-02-20,2014-2015,San Bernardo,-33.65139,-70.66444,22.7,Tránsito de personas/vehículos,0.8,-10,5
+2015-03-09,2014-2015,Puente Alto,-33.60611,-70.52861,17.6,Tránsito de personas/vehículos,0.01,-4,7
+2015-04-11,2014-2015,San José de Maipo,-33.64472,-70.35083,14.9,Tránsito de personas/vehículos,0.03,4,5
+2015-07-06,2015-2016,Paine,-33.9,-70.65139,25.0,Faenas agrícolas/forestales,0.1,-10,-9
+2015-12-11,2015-2016,Pirque,-33.68111,-70.51194,9.6,Otras,8.0,-3,3
+2015-12-22,2015-2016,Pirque,-33.70556,-70.53111,9.0,Quemas,1.0,-4,2
+2015-12-23,2015-2016,Puente Alto,-33.575,-70.54972,21.5,Intencional,1.0,-5,9
+2016-01-02,2015-2016,Pirque,-33.71167,-70.54556,9.8,Tránsito de personas/vehículos,1.0,-5,2
+2016-01-19,2015-2016,Puente Alto,-33.60528,-70.50083,16.8,Tránsito de personas/vehículos,0.5,-3,8
+2016-01-20,2015-2016,San Bernardo,-33.65306,-70.66444,22.6,Tránsito de personas/vehículos,1.5,-10,5
+2016-01-26,2015-2016,Pirque,-33.72806,-70.55889,10.4,Tránsito de personas/vehículos,0.5,-6,1
+2016-02-01,2015-2016,Pirque,-33.60028,-70.46972,16.7,Tránsito de personas/vehículos,42.0,-1,8
+2016-02-05,2015-2016,Pirque,-33.60667,-70.46056,16.0,Intencional,0.2,-1,7
+2016-02-07,2015-2016,Pirque,-33.60194,-70.465,16.5,Intencional,0.5,-1,8
+2016-02-15,2015-2016,Pirque,-33.61528,-70.49306,15.5,Otras,3.0,-2,7
+2016-02-18,2015-2016,Pirque,-33.66306,-70.59556,16.6,Líneas eléctricas,0.5,-7,4
+2016-02-19,2015-2016,Pirque,-33.72778,-70.475,3.4,Actividades recreativas,0.06,-2,1
+2016-02-24,2015-2016,Pirque,-33.68222,-70.5725,13.6,Intencional,4.0,-6,3
+2016-02-24,2015-2016,Pirque,-33.70139,-70.55444,11.1,Otras,4.9,-5,2
+2016-02-26,2015-2016,Puente Alto,-33.59722,-70.52944,18.5,Tránsito de personas/vehículos,0.2,-4,8
+2016-03-09,2015-2016,Pirque,-33.72389,-70.53972,8.8,Tránsito de personas/vehículos,0.5,-5,1
+2016-03-11,2015-2016,Puente Alto,-33.59139,-70.50917,18.5,Tránsito de personas/vehículos,0.6000000000000001,-3,8
+2016-03-25,2015-2016,Pirque,-33.59972,-70.49139,17.1,Tránsito de personas/vehículos,0.3,-2,8
+2016-09-28,2016-2017,Pirque,-33.64139,-70.45306,12.1,Tránsito de personas/vehículos,2.3,-1,6
+2016-10-10,2016-2017,San José de Maipo,-33.76833,-70.27389,16.4,Tránsito de personas/vehículos,0.5,8,-2
+2016-10-23,2016-2017,San José de Maipo,-33.605,-70.3575,18.3,Tránsito de personas/vehículos,3.0,4,8
+2016-11-05,2016-2017,Puente Alto,-33.55194,-70.54778,23.8,Tránsito de personas/vehículos,0.3,-5,11
+2016-11-07,2016-2017,Pirque,-33.70472,-70.55833,11.2,Tránsito de personas/vehículos,0.2,-6,2
+2016-11-12,2016-2017,La Florida,-33.53611,-70.53,24.9,Actividades recreativas,1.0,-4,11
+2016-11-12,2016-2017,Pirque,-33.70583,-70.51528,7.8,Tránsito de personas/vehículos,76.2,-4,2
+2016-11-18,2016-2017,San José de Maipo,-33.62139,-70.35556,16.8,Tránsito de personas/vehículos,18.0,4,7
+2016-11-28,2016-2017,San José de Maipo,-33.58111,-70.42806,18.9,Otras,1.1,1,9
+2016-11-28,2016-2017,Pirque,-33.62806,-70.5725,17.7,Tránsito de personas/vehículos,0.1,-6,6
+2016-11-28,2016-2017,Pirque,-33.625,-70.56472,17.5,Tránsito de personas/vehículos,2.0,-6,6
+2016-11-29,2016-2017,Puente Alto,-33.58,-70.54639,20.9,Tránsito de personas/vehículos,1.2,-5,9
+2016-11-30,2016-2017,Puente Alto,-33.57917,-70.54528,20.9,Tránsito de personas/vehículos,0.1,-5,9
+2016-12-12,2016-2017,San José de Maipo,-33.57139,-70.34167,22.2,Tránsito de personas/vehículos,3.0,5,9
+2016-12-14,2016-2017,San José de Maipo,-33.77917,-70.24611,19.1,Tránsito de personas/vehículos,0.5,9,-2
+2016-12-14,2016-2017,Pirque,-33.73389,-70.56528,10.8,Tránsito de personas/vehículos,0.3,-6,0
+2016-12-14,2016-2017,San José de Maipo,-33.57083,-70.34556,22.1,Tránsito de personas/vehículos,0.5,4,9
+2016-12-16,2016-2017,San José de Maipo,-33.64639,-70.34694,15.0,Otras,0.4,4,5
+2016-12-17,2016-2017,San José de Maipo,-33.82778,-70.22222,22.8,Tránsito de personas/vehículos,15.0,10,-5
+2016-12-21,2016-2017,Puente Alto,-33.57556,-70.54972,21.5,Tránsito de personas/vehículos,2.0,-5,9
+2016-12-29,2016-2017,San Bernardo,-33.65056,-70.665,22.8,Otras,0.5,-10,5
+2017-01-05,2016-2017,Pirque,-33.71833,-70.56528,11.2,Tránsito de personas/vehículos,0.4,-6,1
+2017-01-08,2016-2017,Puente Alto,-33.60444,-70.55139,18.7,Tránsito de personas/vehículos,0.5,-5,8
+2017-01-15,2016-2017,Puente Alto,-33.55167,-70.54667,23.8,Otras,0.8,-5,11
+2017-01-17,2016-2017,Pirque,-33.73361,-70.57889,12.1,Otras,4419.0,-6,0
+2017-01-18,2016-2017,San José de Maipo,-33.70278,-70.33139,12.2,Otras,20.0,5,2
+2017-01-24,2016-2017,San José de Maipo,-33.58139,-70.44139,18.8,Intencional,1103.5,0,9
+2017-01-30,2016-2017,San José de Maipo,-33.57222,-70.455,19.8,Otras,0.1,-1,9
+2017-02-02,2016-2017,San José de Maipo,-33.6925,-70.33056,12.8,Tránsito de personas/vehículos,0.01,5,3
+2017-02-08,2016-2017,Pirque,-33.61639,-70.52333,16.3,Actividades recreativas,0.2,-4,7
+2017-02-10,2016-2017,Paine,-33.76639,-70.63056,16.8,Tránsito de personas/vehículos,0.5,-9,-1
+2017-02-26,2016-2017,Puente Alto,-33.60278,-70.54917,18.8,Otras,1.5,-5,8
+2017-02-27,2016-2017,Puente Alto,-33.59972,-70.55278,19.2,Intencional,0.5,-5,8
+2017-03-09,2016-2017,Buin,-33.68611,-70.655,20.2,Intencional,45.0,-10,3
+2017-03-20,2016-2017,Puente Alto,-33.59833,-70.50222,17.5,Tránsito de personas/vehículos,2.5,-3,8
+2017-04-02,2016-2017,La Florida,-33.54222,-70.51861,24.0,Tránsito de personas/vehículos,0.8,-4,11
+2017-04-09,2016-2017,Puente Alto,-33.55111,-70.54861,23.9,Tránsito de personas/vehículos,2.7,-5,11
+2017-04-10,2016-2017,Pirque,-33.60889,-70.48806,16.1,Quemas,0.6000000000000001,-2,7
+2017-11-20,2017-2018,La Florida,-33.54194,-70.53361,24.4,Tránsito de personas/vehículos,0.3,-4,11
+2017-11-22,2017-2018,Puente Alto,-33.61972,-70.60333,20.3,Tránsito de personas/vehículos,17.0,-8,7
+2017-11-24,2017-2018,Puente Alto,-33.57889,-70.54361,20.9,Tránsito de personas/vehículos,1.5,-5,9
+2017-11-29,2017-2018,Puente Alto,-33.55389,-70.54889,23.6,Tránsito de personas/vehículos,0.1,-5,10
+2017-12-02,2017-2018,Puente Alto,-33.60722,-70.54778,18.3,Tránsito de personas/vehículos,1.0,-5,7
+2017-12-09,2017-2018,San José de Maipo,-33.66694,-70.34944,13.1,Actividades recreativas,30.0,4,4
+2017-12-18,2017-2018,Puente Alto,-33.57611,-70.54722,21.3,Tránsito de personas/vehículos,0.01,-5,9
+2017-12-21,2017-2018,Pirque,-33.69028,-70.57278,13.2,Tránsito de personas/vehículos,1.0,-6,3
+2017-12-23,2017-2018,Puente Alto,-33.5975,-70.55611,19.6,Tránsito de personas/vehículos,0.1,-5,8
+2017-12-25,2017-2018,Puente Alto,-33.60917,-70.54472,17.9,Tránsito de personas/vehículos,0.1,-5,7
+2017-12-30,2017-2018,San José de Maipo,-33.57722,-70.42806,19.3,Tránsito de personas/vehículos,46.8,1,9
+2018-01-02,2017-2018,Puente Alto,-33.60278,-70.55278,18.9,Tránsito de personas/vehículos,2.0,-5,8
+2018-01-03,2017-2018,Puente Alto,-33.63528,-70.63278,21.2,Quemas,5.2,-9,6
+2018-01-03,2017-2018,Puente Alto,-33.58306,-70.54444,20.5,Tránsito de personas/vehículos,0.2,-5,9
+2018-01-06,2017-2018,Buin,-33.72333,-70.68417,21.9,Líneas eléctricas,15.0,-11,1
+2018-01-09,2017-2018,Puente Alto,-33.58444,-70.53944,20.2,Tránsito de personas/vehículos,5.0,-5,9
+2018-01-26,2017-2018,Puente Alto,-33.60861,-70.54139,17.9,Tránsito de personas/vehículos,1.0,-5,7
+2018-01-26,2017-2018,Puente Alto,-33.59778,-70.52667,18.4,Otras,0.7,-4,8
+2018-02-03,2017-2018,Pirque,-33.61472,-70.52694,16.6,Quemas,0.4,-4,7
+2018-02-05,2017-2018,Pirque,-33.68222,-70.58611,14.7,Desconocida,0.8,-7,3
+2018-02-14,2017-2018,Pirque,-33.6625,-70.52833,12.1,Otras,0.8,-4,4
+2018-02-20,2017-2018,Puente Alto,-33.615,-70.52139,16.4,Desconocida,1.0,-4,7
+2018-03-16,2017-2018,Puente Alto,-33.60694,-70.51389,17.0,Tránsito de personas/vehículos,0.01,-3,7
+2018-03-17,2017-2018,Puente Alto,-33.60556,-70.50139,16.8,Tránsito de personas/vehículos,2.0,-3,8
+2018-03-18,2017-2018,San José de Maipo,-33.70194,-70.33417,12.0,Tránsito de personas/vehículos,1.0,5,2
+2018-03-26,2017-2018,Puente Alto,-33.57972,-70.54833,21.0,Tránsito de personas/vehículos,2.0,-5,9
+2018-03-28,2017-2018,Puente Alto,-33.57778,-70.54583,21.1,Tránsito de personas/vehículos,1.6,-5,9
+2018-03-28,2017-2018,Puente Alto,-33.57778,-70.54583,21.1,Faenas agrícolas/forestales,0.4,-5,9
+2018-04-15,2017-2018,Puente Alto,-33.5875,-70.52528,19.4,Intencional,5.0,-4,9
+2018-05-12,2017-2018,Pirque,-33.625,-70.545,16.4,Tránsito de personas/vehículos,0.01,-5,6
+2018-07-30,2018-2019,San José de Maipo,-33.55333,-70.42444,22.0,Faenas agrícolas/forestales,0.04,1,10
+2018-08-05,2018-2019,Pirque,-33.60889,-70.49917,16.3,Actividades recreativas,11.6,-3,7
+2018-09-04,2018-2019,Paine,-33.76361,-70.65,18.6,Faenas agrícolas/forestales,0.5,-10,-1
+2018-10-06,2018-2019,La Florida,-33.54361,-70.53361,24.2,Tránsito de personas/vehículos,0.01,-4,11
+2018-10-08,2018-2019,Paine,-33.89972,-70.65139,25.0,Intencional,1.0,-10,-9
+2018-10-22,2018-2019,Pirque,-33.72528,-70.55278,9.9,Tránsito de personas/vehículos,0.1,-5,1
+2018-10-29,2018-2019,San José de Maipo,-33.63139,-70.35889,15.7,Tránsito de personas/vehículos,0.1,4,6
+2018-10-31,2018-2019,Puente Alto,-33.62556,-70.60528,19.9,Tránsito de personas/vehículos,0.1,-8,6
+2018-11-07,2018-2019,Puente Alto,-33.60056,-70.55611,19.3,Tránsito de personas/vehículos,0.01,-5,8
+2018-11-08,2018-2019,Puente Alto,-33.63222,-70.61194,19.9,Tránsito de personas/vehículos,0.1,-8,6
+2018-11-10,2018-2019,Pirque,-33.68639,-70.57667,13.7,Tránsito de personas/vehículos,0.01,-6,3
+2018-11-11,2018-2019,Pirque,-33.68111,-70.60583,16.3,Tránsito de personas/vehículos,0.1,-8,3
+2018-11-15,2018-2019,Puente Alto,-33.60694,-70.54389,18.1,Tránsito de personas/vehículos,0.1,-5,7
+2018-11-18,2018-2019,Puente Alto,-33.58806,-70.52833,19.4,Tránsito de personas/vehículos,29.0,-4,9
+2018-11-19,2018-2019,Paine,-33.78361,-70.62306,16.4,Quemas,0.6000000000000001,-9,-2
+2018-11-20,2018-2019,San José de Maipo,-33.67028,-70.34806,12.9,Tránsito de personas/vehículos,0.3,4,4
+2018-11-20,2018-2019,Puente Alto,-33.61278,-70.51889,16.5,Tránsito de personas/vehículos,1.4,-4,7
+2018-11-24,2018-2019,Puente Alto,-33.61139,-70.50944,16.4,Quemas,6.2,-3,7
+2018-11-25,2018-2019,Puente Alto,-33.57361,-70.51583,20.5,Desconocida,12.1,-4,9
+2018-11-26,2018-2019,Pirque,-33.61083,-70.49639,16.1,Otras,0.3,-3,7
+2018-11-26,2018-2019,Puente Alto,-33.57972,-70.53944,20.7,Otras,32.0,-5,9
+2018-11-29,2018-2019,San José de Maipo,-33.65556,-70.35028,14.0,Tránsito de personas/vehículos,0.01,4,5
+2018-12-01,2018-2019,Puente Alto,-33.59944,-70.55583,19.4,Tránsito de personas/vehículos,0.3,-5,8
+2018-12-01,2018-2019,Puente Alto,-33.56833,-70.53722,21.8,Actividades recreativas,15.0,-5,10
+2018-12-07,2018-2019,Paine,-33.78917,-70.70972,24.4,Tránsito de personas/vehículos,1.0,-13,-3
+2018-12-09,2018-2019,Pirque,-33.655,-70.65556,21.8,Tránsito de personas/vehículos,0.01,-10,5
+2018-12-11,2018-2019,Puente Alto,-33.60083,-70.555,19.2,Tránsito de personas/vehículos,0.01,-5,8
+2018-12-19,2018-2019,Puente Alto,-33.61056,-70.54056,17.6,Tránsito de personas/vehículos,0.7999999999999999,-5,7
+2018-12-23,2018-2019,San José de Maipo,-33.78444,-70.23056,20.6,Tránsito de personas/vehículos,0.3,10,-2
+2018-12-24,2018-2019,Puente Alto,-33.63417,-70.63028,21.1,Tránsito de personas/vehículos,0.01,-9,6
+2018-12-25,2018-2019,San José de Maipo,-33.7675,-70.27278,16.5,Tránsito de personas/vehículos,0.01,8,-1
+2018-12-27,2018-2019,San José de Maipo,-33.635,-70.35722,15.4,Tránsito de personas/vehículos,0.01,4,6
+2018-12-29,2018-2019,Puente Alto,-33.63028,-70.58306,18.1,Quemas,0.5,-7,6
+2019-01-02,2018-2019,San José de Maipo,-33.6425,-70.35083,15.1,Quemas,0.01,4,5
+2019-01-03,2018-2019,San José de Maipo,-33.69917,-70.33444,12.1,Tránsito de personas/vehículos,0.01,5,2
+2019-01-05,2018-2019,San José de Maipo,-33.60028,-70.5,17.3,Otras,0.03,-3,8
+2019-01-07,2018-2019,San José de Maipo,-33.58306,-70.39861,19.2,Tránsito de personas/vehículos,0.01,2,9
+2019-01-07,2018-2019,San José de Maipo,-33.64056,-70.35056,15.3,Tránsito de personas/vehículos,0.01,4,6
+2019-01-09,2018-2019,San José de Maipo,-33.655,-70.34722,14.2,Tránsito de personas/vehículos,0.01,4,5
+2019-01-11,2018-2019,San José de Maipo,-33.58778,-70.47972,18.2,Otras,0.1,-2,9
+2019-01-11,2018-2019,Puente Alto,-33.58306,-70.52917,20.0,Quemas,42.0,-4,9
+2019-01-11,2018-2019,Pirque,-33.59056,-70.45667,17.7,Tránsito de personas/vehículos,13.2,-1,8
+2019-01-13,2018-2019,Puente Alto,-33.58111,-70.54444,20.7,Tránsito de personas/vehículos,0.01,-5,9
+2019-01-14,2018-2019,Puente Alto,-33.55167,-70.55389,24.1,Tránsito de personas/vehículos,0.01,-5,11
+2019-01-17,2018-2019,Pirque,-33.59444,-70.45389,17.3,Tránsito de personas/vehículos,1.5,-1,8
+2019-01-18,2018-2019,San José de Maipo,-33.59417,-70.45389,17.3,Tránsito de personas/vehículos,0.2,-1,8
+2019-01-26,2018-2019,Paine,-33.78111,-70.62361,16.4,Líneas eléctricas,1.0,-9,-2
+2019-01-28,2018-2019,Buin,-33.64972,-70.64556,21.3,Tránsito de personas/vehículos,0.02,-10,5
+2019-01-29,2018-2019,Puente Alto,-33.575,-70.54306,21.3,Tránsito de personas/vehículos,0.01,-5,9
+2019-01-30,2018-2019,San José de Maipo,-33.78667,-70.18361,25.0,Tránsito de personas/vehículos,1.2000000000000002,12,-3
+2019-01-31,2018-2019,Puente Alto,-33.5925,-70.55222,19.9,Tránsito de personas/vehículos,0.02,-5,8
+2019-02-06,2018-2019,Puente Alto,-33.60444,-70.55083,18.7,Tránsito de personas/vehículos,0.8,-5,8
+2019-02-07,2018-2019,Puente Alto,-33.59333,-70.54972,19.7,Tránsito de personas/vehículos,0.5,-5,8
+2019-02-12,2018-2019,Pirque,-33.69833,-70.55917,11.6,Quemas,2.5,-6,2
+2019-02-14,2018-2019,Pirque,-33.58972,-70.45611,17.8,Intencional,21.0,-1,8
+2019-02-14,2018-2019,San José de Maipo,-33.58111,-70.44528,18.8,Tránsito de personas/vehículos,0.02,0,9
+2019-02-21,2018-2019,San Bernardo,-33.64889,-70.65833,22.3,Tránsito de personas/vehículos,1.52,-10,5
+2019-02-23,2018-2019,San José de Maipo,-33.59528,-70.38194,18.3,Tránsito de personas/vehículos,0.02,3,8
+2019-02-23,2018-2019,San José de Maipo,-33.69639,-70.33667,12.1,Tránsito de personas/vehículos,0.01,5,2
+2019-02-25,2018-2019,San José de Maipo,-33.73083,-70.31806,12.4,Tránsito de personas/vehículos,0.05,6,1
+2019-03-01,2018-2019,Puente Alto,-33.60056,-70.55556,19.3,Tránsito de personas/vehículos,0.02,-5,8
+2019-03-06,2018-2019,San José de Maipo,-33.78639,-70.22444,21.2,Actividades recreativas,0.5,10,-3
+2019-03-07,2018-2019,La Florida,-33.53444,-70.49917,24.4,Actividades recreativas,10.8,-3,11
+2019-03-12,2018-2019,Pirque,-33.6175,-70.51917,16.1,Intencional,0.1,-4,7
+2019-03-12,2018-2019,Puente Alto,-33.61694,-70.51833,16.1,Tránsito de personas/vehículos,0.3,-4,7
+2019-03-12,2018-2019,La Florida,-33.53472,-70.49917,24.4,Intencional,0.1,-3,11
+2019-03-24,2018-2019,San José de Maipo,-33.5925,-70.38139,18.6,Tránsito de personas/vehículos,0.01,3,8
+2019-03-28,2018-2019,San José de Maipo,-33.64389,-70.34667,15.2,Tránsito de personas/vehículos,0.2,4,5
+2019-05-15,2018-2019,San José de Maipo,-33.59472,-70.38944,18.2,Tránsito de personas/vehículos,0.01,2,8
+2019-09-03,2019-2020,Buin,-33.73861,-70.7025,23.4,Faenas agrícolas/forestales,2.0,-12,0
+2019-10-12,2019-2020,Puente Alto,-33.57667,-70.55111,21.4,Tránsito de personas/vehículos,0.2,-5,9
+2019-10-17,2019-2020,Pirque,-33.62306,-70.53806,16.3,Desconocida,0.01,-5,7
+2019-10-21,2019-2020,Puente Alto,-33.6075,-70.50083,16.5,Desconocida,0.01,-3,7
+2019-11-01,2019-2020,Buin,-33.74083,-70.69028,22.2,Tránsito de personas/vehículos,0.5,-12,0
+2019-11-09,2019-2020,Buin,-33.72833,-70.68278,21.7,Otras,0.5,-11,1
+2019-11-10,2019-2020,Pirque,-33.6125,-70.48556,15.6,Quemas,0.2,-2,7
+2019-11-11,2019-2020,San Bernardo,-33.63417,-70.63056,21.1,Quemas,0.01,-9,6
+2019-11-16,2019-2020,Pirque,-33.69972,-70.53472,9.6,Quemas,5.0,-4,2
+2019-11-18,2019-2020,Pirque,-33.64639,-70.63111,20.3,Tránsito de personas/vehículos,0.01,-9,5
+2019-11-24,2019-2020,Paine,-33.86417,-70.68361,25.0,Tránsito de personas/vehículos,1.0,-11,-7
+2019-11-25,2019-2020,Pirque,-33.68139,-70.60944,16.6,Faenas agrícolas/forestales,0.5,-8,3
+2019-11-30,2019-2020,San José de Maipo,-33.69167,-70.33417,12.5,Tránsito de personas/vehículos,0.2,5,3
+2019-12-01,2019-2020,Pirque,-33.60111,-70.4625,16.6,Actividades recreativas,120.0,-1,8
+2019-12-02,2019-2020,Puente Alto,-33.57139,-70.55167,22.0,Desconocida,0.01,-5,9
+2019-12-11,2019-2020,San Bernardo,-33.61083,-70.65028,24.1,Tránsito de personas/vehículos,0.3,-10,7
+2019-12-11,2019-2020,Puente Alto,-33.57444,-70.54528,21.4,Tránsito de personas/vehículos,0.2,-5,9
+2019-12-12,2019-2020,San José de Maipo,-33.57556,-70.44361,19.4,Intencional,1072.29,0,9
+2019-12-17,2019-2020,San José de Maipo,-33.81556,-70.21472,22.9,Desconocida,150.0,10,-4
+2019-12-17,2019-2020,San Bernardo,-33.64167,-70.63583,21.0,Desconocida,0.01,-9,6
+2019-12-21,2019-2020,Puente Alto,-33.62028,-70.56639,18.0,Tránsito de personas/vehículos,0.2,-6,7
+2020-01-01,2019-2020,Pirque,-33.59056,-70.45667,17.7,Tránsito de personas/vehículos,1.5,-1,8
+2020-01-03,2019-2020,Paine,-33.86694,-70.655,23.0,Tránsito de personas/vehículos,0.5,-10,-7
+2020-01-04,2019-2020,Paine,-33.86722,-70.655,23.0,Faenas agrícolas/forestales,3.0,-10,-7
+2020-01-25,2019-2020,Puente Alto,-33.57556,-70.53222,20.8,Tránsito de personas/vehículos,0.3,-4,9
+2020-01-26,2019-2020,San José de Maipo,-33.69083,-70.33333,12.6,Tránsito de personas/vehículos,0.2,5,3
+2020-01-27,2019-2020,Pirque,-33.66083,-70.61972,18.6,Faenas agrícolas/forestales,0.3,-8,4
+2020-01-30,2019-2020,Pirque,-33.63306,-70.56694,16.9,Tránsito de personas/vehículos,0.01,-6,6
+2020-02-01,2019-2020,Buin,-33.71972,-70.69944,23.3,Faenas agrícolas/forestales,0.3,-12,1
+2020-02-01,2019-2020,La Pintana,-33.60917,-70.64333,23.8,Desconocida,0.01,-9,7
+2020-02-02,2019-2020,San Bernardo,-33.62306,-70.65917,24.0,Faenas agrícolas/forestales,8.0,-10,7
+2020-02-11,2019-2020,Paine,-33.84417,-70.69111,24.6,Tránsito de personas/vehículos,0.8,-12,-6
+2020-02-15,2019-2020,Puente Alto,-33.63167,-70.60028,19.1,Tránsito de personas/vehículos,0.5,-7,6
+2020-02-17,2019-2020,San Bernardo,-33.60972,-70.65417,24.5,Faenas agrícolas/forestales,1.5,-10,7
+2020-02-19,2019-2020,San José de Maipo,-33.69083,-70.33306,12.7,Otras,2.5,5,3
+2020-03-22,2019-2020,Pirque,-33.66222,-70.61639,18.2,Tránsito de personas/vehículos,0.01,-8,4
+2020-04-15,2019-2020,San Bernardo,-33.65278,-70.66833,22.9,Quemas,0.3,-11,5
+2020-04-21,2019-2020,Pirque,-33.67333,-70.4975,9.6,Actividades recreativas,0.01,-3,4
+2020-04-22,2019-2020,Pirque,-33.675,-70.49806,9.5,Tránsito de personas/vehículos,0.04,-3,4
+2020-05-04,2019-2020,Pirque,-33.67722,-70.61694,17.4,Otras,1.2,-8,4
+2020-07-17,2020-2021,Paine,-33.80425,-70.69105,23.1,Tránsito de personas/vehículos,0.01,-12,-4
+2020-07-18,2020-2021,Puente Alto,-33.61329,-70.54815,17.7,Tránsito de personas/vehículos,0.01,-5,7
+2020-07-28,2020-2021,Buin,-33.73705,-70.7196,25.0,Tránsito de personas/vehículos,0.01,-13,0
+2020-10-22,2020-2021,Puente Alto,-33.61328,-70.51734,16.4,Tránsito de personas/vehículos,0.2,-4,7
+2020-10-24,2020-2021,San José de Maipo,-33.58047,-70.40807,19.2,Tránsito de personas/vehículos,0.5,1,9
+2020-10-27,2020-2021,Paine,-33.80697,-70.62644,17.5,Faenas agrícolas/forestales,0.2,-9,-4
+2020-11-06,2020-2021,Pirque,-33.67035,-70.6228,18.3,Desconocida,0.4,-8,4
+2020-11-14,2020-2021,Pirque,-33.68047,-70.60014,15.9,Actividades recreativas,0.01,-7,3
+2020-11-24,2020-2021,Paine,-33.85611,-70.59389,17.8,Faenas agrícolas/forestales,1.0,-7,-6
+2020-11-26,2020-2021,Pirque,-33.68147,-70.60492,16.2,Faenas agrícolas/forestales,0.02,-8,3
+2020-12-11,2020-2021,San José de Maipo,-33.65581,-70.34891,14.0,Tránsito de personas/vehículos,0.4,4,5
+2020-12-11,2020-2021,Buin,-33.71486,-70.70014,23.5,Tránsito de personas/vehículos,0.8,-12,1
+2020-12-13,2020-2021,Buin,-33.7148,-70.70005,23.5,Faenas agrícolas/forestales,1.0,-12,1
+2020-12-14,2020-2021,Puente Alto,-33.62539,-70.60181,19.7,Quemas,0.02,-8,6
+2020-12-21,2020-2021,Pirque,-33.62671,-70.54989,16.5,Líneas eléctricas,1.2,-5,6
+2021-01-02,2020-2021,San José de Maipo,-33.59547,-70.49248,17.6,Actividades recreativas,1.0,-2,8
+2021-01-10,2020-2021,Puente Alto,-33.61381,-70.51281,16.2,Desconocida,0.04,-3,7
+2021-01-11,2020-2021,Pirque,-33.66583,-70.62334,18.6,Otras,0.06,-9,4
+2021-01-15,2020-2021,Pirque,-33.68956,-70.57242,13.2,Tránsito de personas/vehículos,0.5,-6,3
+2021-02-16,2020-2021,San José de Maipo,-33.70944,-70.35639,9.8,Intencional,2.0,4,2
+2021-04-01,2020-2021,San José de Maipo,-33.67727,-70.3532,12.1,Actividades recreativas,0.02,4,4
+2021-07-06,2021-2022,San José de Maipo,-33.64628,-70.35033,14.8,Tránsito de personas/vehículos,0.01,4,5
+2021-07-21,2021-2022,Pirque,-33.64975,-70.61861,19.2,Tránsito de personas/vehículos,0.01,-8,5
+2021-10-24,2021-2022,La Florida,-33.54781,-70.55389,24.5,Tránsito de personas/vehículos,0.2,-5,11
+2021-11-05,2021-2022,San José de Maipo,-33.66564,-70.35436,12.9,Tránsito de personas/vehículos,0.2,4,4
+2021-11-06,2021-2022,San Bernardo,-33.64123,-70.66222,23.1,Quemas,0.5,-10,6
+2021-11-11,2021-2022,Pirque,-33.68299,-70.58629,14.6,Faenas agrícolas/forestales,0.01,-7,3
+2021-11-20,2021-2022,La Pintana,-33.59983,-70.62789,23.4,Tránsito de personas/vehículos,0.01,-9,8
+2021-11-22,2021-2022,Puente Alto,-33.59642,-70.51386,18.1,Quemas,0.5,-3,8
+2021-12-04,2021-2022,Puente Alto,-33.61953,-70.5578,17.6,Tránsito de personas/vehículos,7.0,-5,7
+2021-12-05,2021-2022,Paine,-33.90766,-70.6313,24.2,Tránsito de personas/vehículos,0.5,-9,-9
+2021-12-15,2021-2022,San José de Maipo,-33.64129,-70.35103,15.2,Otras,1.3,4,6
+2021-12-15,2021-2022,Pirque,-33.70606,-70.54564,10.1,Tránsito de personas/vehículos,0.5,-5,2
+2021-12-28,2021-2022,Pirque,-33.64778,-70.60361,18.2,Actividades recreativas,0.1,-8,5
+2022-01-09,2021-2022,San José de Maipo,-33.57833,-70.43333,19.2,Actividades recreativas,0.05,0,9
+2022-01-17,2021-2022,Buin,-33.74603,-70.70322,23.4,Tránsito de personas/vehículos,0.01,-12,0
+2022-01-23,2021-2022,Buin,-33.78914,-70.7001,23.5,Quemas,0.3,-12,-3
+2022-02-14,2021-2022,San José de Maipo,-33.57917,-70.4145,19.3,Tránsito de personas/vehículos,0.03,1,9
+2022-02-16,2021-2022,La Pintana,-33.57173,-70.61297,24.9,Desconocida,0.5,-8,9
+2022-02-17,2021-2022,Pirque,-33.64571,-70.63246,20.5,Quemas,0.1,-9,5
+2022-03-21,2021-2022,Pirque,-33.63189,-70.56023,16.6,Líneas eléctricas,0.1,-6,6
+2022-03-29,2021-2022,San José de Maipo,-33.59806,-70.49917,17.5,Faenas agrícolas/forestales,0.01,-3,8
+2022-04-14,2021-2022,Puente Alto,-33.59229,-70.53934,19.4,Intencional,0.03,-5,8
+2022-04-22,2021-2022,Pirque,-33.6868,-70.5667,12.9,Faenas agrícolas/forestales,0.3,-6,3
+2022-05-20,2021-2022,Paine,-33.78972,-70.70491,24.0,Quemas,1.0,-12,-3
+2022-06-14,2021-2022,Paine,-33.77077,-70.67731,21.1,Tránsito de personas/vehículos,0.01,-11,-2
+2022-09-03,2022-2023,Buin,-33.74295,-70.69369,22.5,Desconocida,0.01,-12,0
+2022-10-12,2022-2023,Buin,-33.74325,-70.69405,22.6,Desconocida,0.01,-12,0
+2022-10-19,2022-2023,Paine,-33.85655,-70.59453,17.9,Tránsito de personas/vehículos,2.5,-7,-6
+2022-10-25,2022-2023,San Bernardo,-33.64172,-70.67344,23.9,Faenas agrícolas/forestales,0.5,-11,6
+2022-11-01,2022-2023,Paine,-33.87058,-70.61245,20.1,Tránsito de personas/vehículos,0.01,-8,-7
+2022-11-01,2022-2023,Pirque,-33.68667,-70.57694,13.7,Líneas eléctricas,0.01,-6,3
+2022-11-03,2022-2023,Pirque,-33.69082,-70.57264,13.1,Líneas eléctricas,0.7,-6,3
+2022-11-10,2022-2023,Puente Alto,-33.575,-70.52667,20.7,Quemas,0.2,-4,9
+2022-11-16,2022-2023,Pirque,-33.73161,-70.55684,10.1,Faenas agrícolas/forestales,1.5,-5,1
+2022-11-16,2022-2023,Pirque,-33.58346,-70.44857,18.5,Tránsito de personas/vehículos,0.1,0,9
+2022-11-18,2022-2023,Pirque,-33.58122,-70.44503,18.8,Tránsito de personas/vehículos,0.8,0,9
+2022-11-20,2022-2023,Paine,-33.78197,-70.67484,21.1,Desconocida,0.01,-11,-2
+2022-11-22,2022-2023,Puente Alto,-33.55742,-70.533,22.8,Líneas eléctricas,9.0,-4,10
+2022-11-25,2022-2023,Pirque,-33.66945,-70.61083,17.4,Otras,0.3,-8,4
+2022-11-25,2022-2023,San José de Maipo,-33.57786,-70.43189,19.2,Otras,0.2,0,9
+2022-12-03,2022-2023,Puente Alto,-33.61975,-70.60328,20.3,Quemas,0.3,-8,7
+2022-12-06,2022-2023,Puente Alto,-33.5752,-70.5403,21.2,Tránsito de personas/vehículos,0.1,-5,9
+2022-12-07,2022-2023,Buin,-33.76361,-70.70111,23.3,Líneas eléctricas,5.0,-12,-1
+2022-12-08,2022-2023,San José de Maipo,-33.61722,-70.35027,17.4,Tránsito de personas/vehículos,0.5,4,7
+2022-12-11,2022-2023,Puente Alto,-33.61931,-70.56805,18.2,Tránsito de personas/vehículos,0.5,-6,7
+2022-12-15,2022-2023,Pirque,-33.72857,-70.57044,11.4,Otras,5.5,-6,1
+2022-12-17,2022-2023,Puente Alto,-33.58605,-70.54761,20.3,Tránsito de personas/vehículos,0.4,-5,9
+2022-12-19,2022-2023,Paine,-33.78031,-70.62095,16.2,Tránsito de personas/vehículos,0.5,-8,-2
+2022-12-21,2022-2023,Puente Alto,-33.59374,-70.55352,19.8,Tránsito de personas/vehículos,0.1,-5,8
+2022-12-21,2022-2023,Paine,-33.803,-70.668,21.0,Otras,0.3,-11,-3
+2022-12-21,2022-2023,Puente Alto,-33.59756,-70.51109,17.9,Otras,0.1,-3,8
+2023-01-02,2022-2023,San José de Maipo,-33.81398,-70.20047,24.1,Actividades recreativas,75.25,11,-4
+2023-01-05,2022-2023,San José de Maipo,-33.58636,-70.47,18.3,Desconocida,0.2,-1,9
+2023-01-12,2022-2023,Paine,-33.79381,-70.69264,23.0,Desconocida,2.5,-12,-3
+2023-01-12,2022-2023,Buin,-33.6722,-70.6872,23.6,Otras,1.0,-11,4
+2023-01-17,2022-2023,San José de Maipo,-33.58256,-70.41061,19.0,Actividades recreativas,0.05,1,9
+2023-01-18,2022-2023,Pirque,-33.65456,-70.5762,15.8,Tránsito de personas/vehículos,0.2,-6,5
+2023-01-21,2022-2023,San Bernardo,-33.62311,-70.66181,24.1,Tránsito de personas/vehículos,1.0,-10,7
+2023-01-21,2022-2023,Pirque,-33.62,-70.55058,17.2,Desconocida,8.0,-5,7
+2023-01-23,2022-2023,San Bernardo,-33.61952,-70.66461,24.6,Faenas agrícolas/forestales,1.0,-10,7
+2023-01-25,2022-2023,Puente Alto,-33.55395,-70.54861,23.6,Otras,1.0,-5,10
+2023-01-27,2022-2023,Buin,-33.65573,-70.66163,22.2,Quemas,0.02,-10,5
+2023-01-29,2022-2023,Puente Alto,-33.61089,-70.54039,17.6,Tránsito de personas/vehículos,0.5,-5,7
+2023-01-30,2022-2023,Pirque,-33.64989,-70.6162,19.0,Quemas,0.5,-8,5
+2023-01-30,2022-2023,San José de Maipo,-33.58114,-70.43217,18.8,Tránsito de personas/vehículos,2.5,0,9
+2023-02-01,2022-2023,San José de Maipo,-33.68136,-70.35417,11.7,Actividades recreativas,0.01,4,3
+2023-02-01,2022-2023,San Bernardo,-33.64342,-70.64727,21.8,Otras,0.4,-10,5
+2023-02-01,2022-2023,Paine,-33.88898,-70.64514,23.7,Desconocida,0.1,-10,-8
+2023-02-03,2022-2023,Puente Alto,-33.5762,-70.55095,21.5,Desconocida,1.0,-5,9
+2023-02-10,2022-2023,Pirque,-33.69227,-70.61278,16.4,Líneas eléctricas,1.0,-8,3
+2023-02-12,2022-2023,Buin,-33.72103,-70.70084,23.4,Tránsito de personas/vehículos,0.3,-12,1
+2023-02-15,2022-2023,Pirque,-33.62911,-70.55555,16.6,Líneas eléctricas,0.2,-5,6
+2023-02-27,2022-2023,Paine,-33.87645,-70.66626,24.4,Faenas agrícolas/forestales,1.0,-10,-8
+2023-03-02,2022-2023,Puente Alto,-33.57795,-70.50798,19.9,Desconocida,0.2,-3,9
+2023-03-04,2022-2023,Puente Alto,-33.57745,-70.5079,19.9,Otras,1.0,-3,9
+2023-03-15,2022-2023,Paine,-33.81754,-70.6467,19.7,Otras,0.1,-10,-4
+2023-03-20,2022-2023,Puente Alto,-33.5798,-70.55207,21.2,Otras,0.01,-5,9
+2023-03-22,2022-2023,Puente Alto,-33.55525,-70.55298,23.7,Tránsito de personas/vehículos,0.1,-5,10
+2023-03-25,2022-2023,Pirque,-33.64037,-70.53531,14.5,Líneas eléctricas,0.1,-4,6
+2023-03-29,2022-2023,Puente Alto,-33.61745,-70.55612,17.7,Desconocida,0.3,-5,7
+2023-05-14,2022-2023,Pirque,-33.6418,-70.55567,15.5,Tránsito de personas/vehículos,1.0,-5,6
+2023-06-06,2022-2023,Buin,-33.75577,-70.67059,20.4,Desconocida,1.0,-11,-1
+2023-11-10,2023-2024,Buin,-33.73361,-70.67639,21.0,Tránsito de personas/vehículos,0.2,-11,0
+2023-11-15,2023-2024,Pirque,-33.60917,-70.48056,15.9,Interfaz/parcelaciones,0.2,-2,7
+2023-11-23,2023-2024,Puente Alto,-33.62444,-70.61861,20.9,Quemas,1.0,-8,6
+2023-11-23,2023-2024,San José de Maipo,-33.78639,-70.22917,20.8,Quemas,0.01,10,-3
+2023-11-24,2023-2024,La Pintana,-33.60639,-70.65,24.4,Intencional,0.3,-10,7
+2023-11-27,2023-2024,San José de Maipo,-33.67722,-70.34667,12.5,Desconocida,0.2,4,4
+2023-11-29,2023-2024,Pirque,-33.70611,-70.59861,14.6,Tránsito de personas/vehículos,1.0,-7,2
+2023-11-30,2023-2024,Puente Alto,-33.62472,-70.60306,19.9,Desconocida,2.0,-8,6
+2023-12-03,2023-2024,Puente Alto,-33.61722,-70.60333,20.5,Desconocida,0.4,-8,7
+2023-12-03,2023-2024,Paine,-33.82778,-70.65083,20.5,Faenas agrícolas/forestales,0.2,-10,-5
+2023-12-03,2023-2024,Puente Alto,-33.63917,-70.60833,19.1,Intencional,0.5,-8,6
+2023-12-04,2023-2024,Puente Alto,-33.63806,-70.60806,19.2,Quemas,0.5,-8,6
+2023-12-05,2023-2024,San Bernardo,-33.64444,-70.64417,21.5,Desconocida,0.07,-9,5
+2023-12-06,2023-2024,Puente Alto,-33.63444,-70.63,21.0,Desconocida,0.04,-9,6
+2023-12-09,2023-2024,La Pintana,-33.59972,-70.64528,24.6,Desconocida,3.2,-10,8
+2023-12-09,2023-2024,Pirque,-33.69944,-70.58639,13.8,Quemas,0.5,-7,2
+2023-12-10,2023-2024,Pirque,-33.68361,-70.58667,14.6,Otras,0.3,-7,3
+2023-12-11,2023-2024,Pirque,-33.65667,-70.59806,17.2,Desconocida,0.01,-7,5
+2023-12-13,2023-2024,Puente Alto,-33.62694,-70.60417,19.8,Desconocida,1.2,-8,6
+2023-12-14,2023-2024,San Bernardo,-33.62361,-70.67083,24.8,Quemas,0.01,-11,7
+2023-12-15,2023-2024,Puente Alto,-33.61444,-70.61333,21.3,Desconocida,2.0,-8,7
+2023-12-18,2023-2024,Buin,-33.73361,-70.70167,23.3,Desconocida,2.0,-12,0
+2023-12-19,2023-2024,La Pintana,-33.57306,-70.61694,25.0,Tránsito de personas/vehículos,2.5,-8,9
+2023-12-20,2023-2024,Pirque,-33.69861,-70.56111,11.8,Interfaz/parcelaciones,0.1,-6,2
+2023-12-22,2023-2024,Buin,-33.67833,-70.665,21.4,Tránsito de personas/vehículos,0.2,-10,3
+2023-12-31,2023-2024,San Bernardo,-33.63806,-70.68333,24.9,Tránsito de personas/vehículos,0.6,-11,6
+2024-01-01,2023-2024,Puente Alto,-33.56389,-70.5425,22.4,Desconocida,0.01,-5,10
+2024-01-02,2023-2024,Puente Alto,-33.61694,-70.61333,21.1,Intencional,2.1,-8,7
+2024-01-03,2023-2024,Puente Alto,-33.63306,-70.61722,20.2,Quemas,0.1,-8,6
+2024-01-03,2023-2024,Puente Alto,-33.63667,-70.63028,20.9,Tránsito de personas/vehículos,0.01,-9,6
+2024-01-05,2023-2024,Pirque,-33.71167,-70.54806,10.0,Líneas eléctricas,0.03,-5,2
+2024-01-06,2023-2024,San José de Maipo,-33.65389,-70.3475,14.3,Tránsito de personas/vehículos,0.8,4,5
+2024-01-07,2023-2024,Buin,-33.74111,-70.67083,20.4,Otras,104.99,-11,0
+2024-01-08,2023-2024,Puente Alto,-33.60111,-70.555,19.2,Tránsito de personas/vehículos,0.2,-5,8
+2024-01-08,2023-2024,Pirque,-33.71444,-70.54417,9.6,Quemas,0.5,-5,1
+2024-01-10,2023-2024,Puente Alto,-33.61722,-70.615,21.2,Tránsito de personas/vehículos,0.2,-8,7
+2024-01-12,2023-2024,Puente Alto,-33.58833,-70.54556,20.0,Otras,2.5,-5,8
+2024-01-13,2023-2024,Pirque,-33.62333,-70.575,18.2,Tránsito de personas/vehículos,0.1,-6,7
+2024-01-14,2023-2024,Paine,-33.79361,-70.69139,22.8,Quemas,2.3,-12,-3
+2024-01-16,2023-2024,La Pintana,-33.62556,-70.63083,21.7,Tránsito de personas/vehículos,0.1,-9,6
+2024-01-16,2023-2024,La Pintana,-33.615,-70.63694,22.9,Interfaz/parcelaciones,0.01,-9,7
+2024-01-20,2023-2024,San Bernardo,-33.64389,-70.68444,24.7,Interfaz/parcelaciones,0.02,-11,5
+2024-01-20,2023-2024,Puente Alto,-33.60611,-70.54611,18.3,Tránsito de personas/vehículos,0.01,-5,7
+2024-01-21,2023-2024,Buin,-33.72417,-70.70167,23.4,Tránsito de personas/vehículos,0.2,-12,1
+2024-01-23,2023-2024,Puente Alto,-33.61944,-70.56083,17.8,Tránsito de personas/vehículos,0.5,-6,7
+2024-01-24,2023-2024,Pirque,-33.68889,-70.57139,13.1,Tránsito de personas/vehículos,0.02,-6,3
+2024-01-24,2023-2024,La Pintana,-33.59639,-70.63972,24.5,Quemas,1.5,-9,8
+2024-01-25,2023-2024,San José de Maipo,-33.63667,-70.34972,15.6,Interfaz/parcelaciones,1.5,4,6
+2024-01-27,2023-2024,La Pintana,-33.59694,-70.63972,24.5,Tránsito de personas/vehículos,3.0,-9,8
+2024-01-30,2023-2024,Pirque,-33.66333,-70.63083,19.3,Otras,2.5,-9,4
+2024-02-02,2023-2024,Puente Alto,-33.63,-70.62528,21.0,Tránsito de personas/vehículos,0.2,-9,6
+2024-02-07,2023-2024,Puente Alto,-33.62028,-70.55556,17.4,Tránsito de personas/vehículos,0.3,-5,7
+2024-02-08,2023-2024,Puente Alto,-33.63139,-70.59611,18.9,Tránsito de personas/vehículos,0.3,-7,6
+2024-02-11,2023-2024,La Pintana,-33.60444,-70.64278,24.1,Quemas,0.6,-9,8
+2024-02-15,2023-2024,Pirque,-33.62694,-70.57417,17.9,Intencional,1.0,-6,6
+2024-02-15,2023-2024,San Bernardo,-33.65611,-70.68944,24.5,Quemas,4.5,-12,5
+2024-02-16,2023-2024,Puente Alto,-33.62528,-70.57639,18.1,Tránsito de personas/vehículos,0.03,-6,6
+2024-02-17,2023-2024,La Pintana,-33.57583,-70.61833,24.9,Tránsito de personas/vehículos,8.0,-8,9
+2024-02-17,2023-2024,Buin,-33.74722,-70.68056,21.3,Tránsito de personas/vehículos,0.5,-11,0
+2024-02-21,2023-2024,Puente Alto,-33.58083,-70.56167,21.5,Quemas,0.3,-6,9
+2024-02-26,2023-2024,Paine,-33.87333,-70.67667,25.0,Tránsito de personas/vehículos,0.2,-11,-7
+2024-02-29,2023-2024,San Bernardo,-33.61778,-70.63917,22.9,Interfaz/parcelaciones,0.5,-9,7
+2024-02-29,2023-2024,Puente Alto,-33.62056,-70.55722,17.5,Tránsito de personas/vehículos,0.01,-5,7
+2024-03-02,2023-2024,Puente Alto,-33.60667,-70.50139,16.6,Tránsito de personas/vehículos,0.5,-3,7
+2024-03-06,2023-2024,Puente Alto,-33.60056,-70.55667,19.3,Tránsito de personas/vehículos,1.5,-5,8
+2024-03-09,2023-2024,Puente Alto,-33.57778,-70.54583,21.1,Quemas,0.4,-5,9
+2024-03-09,2023-2024,Puente Alto,-33.6175,-70.55333,17.6,Intencional,0.02,-5,7
+2024-03-09,2023-2024,Puente Alto,-33.57889,-70.54333,20.9,Intencional,3.0,-5,9
+2024-03-16,2023-2024,Puente Alto,-33.56361,-70.53056,22.0,Tránsito de personas/vehículos,4.1,-4,10
+2024-03-19,2023-2024,Puente Alto,-33.63722,-70.63111,20.9,Tránsito de personas/vehículos,0.1,-9,6
+2024-03-21,2023-2024,Puente Alto,-33.63444,-70.62139,20.4,Tránsito de personas/vehículos,0.03,-8,6
+2024-03-21,2023-2024,Puente Alto,-33.58639,-70.54778,20.3,Tránsito de personas/vehículos,0.01,-5,9
+2024-03-22,2023-2024,San Bernardo,-33.65861,-70.69472,24.8,Quemas,0.6,-12,5
+2024-03-29,2023-2024,San Bernardo,-33.63333,-70.63139,21.2,Tránsito de personas/vehículos,0.08,-9,6
+2024-03-31,2023-2024,Puente Alto,-33.58528,-70.54472,20.3,Tránsito de personas/vehículos,0.2,-5,9
+2024-04-01,2023-2024,Puente Alto,-33.62222,-70.60278,20.0,Tránsito de personas/vehículos,1.0,-8,7
+2024-04-16,2023-2024,Paine,-33.83667,-70.65361,21.1,Líneas eléctricas,0.5,-10,-5
+2024-04-18,2023-2024,Pirque,-33.67611,-70.63028,18.6,Interfaz/parcelaciones,0.1,-9,4
+2024-04-25,2023-2024,Buin,-33.75806,-70.68972,22.2,Faenas agrícolas/forestales,0.3,-12,-1
+2024-10-27,2024-2025,Buin,-33.75603,-70.6825,21.5,Tránsito de personas/vehículos,0.3,-11,-1
+2024-10-28,2024-2025,Pirque,-33.70625,-70.56456,11.7,Desconocida,0.01,-6,2
+2024-10-28,2024-2025,Puente Alto,-33.55172,-70.55393,24.1,Desconocida,0.01,-5,11
+2024-11-09,2024-2025,Puente Alto,-33.62406,-70.60397,20.0,Intencional,2.0,-8,7
+2024-11-10,2024-2025,San Bernardo,-33.63331,-70.6305,21.1,Quemas,0.05,-9,6
+2024-11-11,2024-2025,Puente Alto,-33.56596,-70.53103,21.8,Tránsito de personas/vehículos,0.04,-4,10
+2024-11-11,2024-2025,Paine,-33.85831,-70.59417,18.0,Faenas agrícolas/forestales,2.0,-7,-7
+2024-11-11,2024-2025,Paine,-33.77211,-70.65989,19.6,Desconocida,0.01,-10,-2
+2024-11-13,2024-2025,San José de Maipo,-33.63978,-70.35053,15.3,Interfaz/parcelaciones,1.0,4,6
+2024-11-19,2024-2025,Puente Alto,-33.62722,-70.605,19.8,Intencional,2.5,-8,6
+2024-11-22,2024-2025,Puente Alto,-33.60955,-70.55055,18.2,Quemas,0.04,-5,7
+2024-11-27,2024-2025,Paine,-33.80414,-70.7035,24.2,Interfaz/parcelaciones,15.0,-12,-4
+2024-11-28,2024-2025,Puente Alto,-33.60372,-70.54742,18.6,Tránsito de personas/vehículos,1.0,-5,8
+2024-11-29,2024-2025,Pirque,-33.66431,-70.60736,17.4,Interfaz/parcelaciones,0.01,-8,4
+2024-11-29,2024-2025,Buin,-33.73475,-70.67823,21.2,Interfaz/parcelaciones,0.05,-11,0
+2024-11-29,2024-2025,Pirque,-33.66511,-70.60206,16.9,Intencional,0.01,-8,4
+2024-11-30,2024-2025,Paine,-33.78644,-70.62913,17.0,Desconocida,0.5,-9,-3
+2024-11-30,2024-2025,Buin,-33.74906,-70.68195,21.4,Desconocida,1.2,-11,0
+2024-12-06,2024-2025,Puente Alto,-33.60155,-70.60586,21.9,Intencional,0.2,-8,8
+2024-12-07,2024-2025,Puente Alto,-33.61593,-70.61403,21.3,Tránsito de personas/vehículos,1.5,-8,7
+2024-12-09,2024-2025,Pirque,-33.66356,-70.61042,17.7,Interfaz/parcelaciones,0.04,-8,4
+2024-12-12,2024-2025,Puente Alto,-33.61011,-70.53786,17.6,Tránsito de personas/vehículos,0.01,-5,7
+2024-12-12,2024-2025,Buin,-33.68805,-70.70025,24.1,Faenas agrícolas/forestales,0.05,-12,3
+2024-12-13,2024-2025,Puente Alto,-33.60739,-70.54584,18.2,Tránsito de personas/vehículos,0.6,-5,7
+2024-12-14,2024-2025,La Pintana,-33.61236,-70.65811,24.6,Desconocida,0.01,-10,7
+2024-12-16,2024-2025,Puente Alto,-33.62667,-70.60167,19.6,Tránsito de personas/vehículos,0.4,-8,6
+2024-12-19,2024-2025,Puente Alto,-33.58222,-70.54389,20.6,Tránsito de personas/vehículos,1.0,-5,9
+2024-12-19,2024-2025,Buin,-33.68489,-70.69292,23.6,Tránsito de personas/vehículos,0.3,-12,3
+2024-12-22,2024-2025,Pirque,-33.72406,-70.55833,10.4,Tránsito de personas/vehículos,0.02,-6,1
+2024-12-24,2024-2025,Pirque,-33.70411,-70.59447,14.3,Tránsito de personas/vehículos,0.06,-7,2
+2024-12-25,2024-2025,San Bernardo,-33.64286,-70.65973,22.8,Tránsito de personas/vehículos,1.0,-10,5
+2024-12-27,2024-2025,Puente Alto,-33.62125,-70.60263,20.1,Intencional,0.5,-8,7
+2024-12-28,2024-2025,Buin,-33.66103,-70.66839,22.5,Desconocida,0.1,-11,4
+2024-12-30,2024-2025,Puente Alto,-33.59883,-70.55403,19.4,Tránsito de personas/vehículos,0.7,-5,8
+2024-12-30,2024-2025,Puente Alto,-33.59911,-70.55356,19.3,Intencional,0.01,-5,8
+2025-01-03,2024-2025,Puente Alto,-33.61694,-70.61777,21.4,Tránsito de personas/vehículos,0.6,-8,7
+2025-01-08,2024-2025,Pirque,-33.6322,-70.53698,15.4,Interfaz/parcelaciones,0.02,-5,6
+2025-01-08,2024-2025,Puente Alto,-33.779,-70.54391,9.3,Interfaz/parcelaciones,0.01,-5,-2
+2025-01-08,2024-2025,Pirque,-33.72622,-70.54614,9.3,Líneas eléctricas,1.1,-5,1
+2025-01-10,2024-2025,Pirque,-33.63695,-70.54223,15.2,Desconocida,0.01,-5,6
+2025-01-12,2024-2025,Pirque,-33.68278,-70.51264,9.5,Tránsito de personas/vehículos,2.2,-3,3
+2025-01-15,2024-2025,Paine,-33.78811,-70.67809,21.5,Tránsito de personas/vehículos,1.0,-11,-3
+2025-01-15,2024-2025,Paine,-33.76833,-70.67767,21.1,Faenas agrícolas/forestales,8.0,-11,-2
+2025-01-19,2024-2025,San José de Maipo,-33.57616,-70.45664,19.3,Otras,31.24,-1,9
+2025-01-20,2024-2025,Paine,-33.7945,-70.7083,24.4,Interfaz/parcelaciones,0.8,-12,-3
+2025-01-21,2024-2025,Paine,-33.87695,-70.65644,23.7,Intencional,0.5,-10,-8
+2025-01-23,2024-2025,San Bernardo,-33.63366,-70.63005,21.1,Quemas,0.01,-9,6
+2025-01-24,2024-2025,Pirque,-33.67872,-70.61972,17.6,Otras,1.0,-8,3
+2025-01-29,2024-2025,Paine,-33.80052,-70.65834,20.1,Desconocida,0.3,-10,-3
+2025-01-30,2024-2025,La Pintana,-33.6,-70.63528,23.9,Intencional,0.6,-9,8
+2025-02-01,2024-2025,Pirque,-33.6515,-70.58889,16.9,Faenas agrícolas/forestales,10.0,-7,5
+2025-02-08,2024-2025,Pirque,-33.71333,-70.61389,15.7,Líneas eléctricas,0.3,-8,2
+2025-02-08,2024-2025,Pirque,-33.71027,-70.52833,8.5,Tránsito de personas/vehículos,0.01,-4,2
+2025-02-08,2024-2025,San Bernardo,-33.61519,-70.65136,23.9,Tránsito de personas/vehículos,0.01,-10,7
+2025-02-12,2024-2025,Buin,-33.75142,-70.68117,21.4,Intencional,2.0,-11,-1
+2025-02-14,2024-2025,San Bernardo,-33.63522,-70.63222,21.1,Quemas,1.0,-9,6
+2025-02-15,2024-2025,Paine,-33.7575,-70.67556,20.9,Líneas eléctricas,0.3,-11,-1
+2025-02-15,2024-2025,Buin,-33.75428,-70.68106,21.4,Quemas,0.3,-11,-1
+2025-02-16,2024-2025,Paine,-33.75861,-70.67944,21.2,Intencional,0.3,-11,-1
+2025-02-18,2024-2025,Puente Alto,-33.63139,-70.59611,18.9,Tránsito de personas/vehículos,0.4,-7,6
+2025-02-20,2024-2025,Puente Alto,-33.58923,-70.49792,18.4,Líneas eléctricas,1.0,-3,8
+2025-02-25,2024-2025,Puente Alto,-33.63278,-70.59,18.4,Faenas agrícolas/forestales,0.01,-7,6
+2025-02-26,2024-2025,Buin,-33.68056,-70.70639,24.9,Tránsito de personas/vehículos,2.0,-12,3
+2025-02-26,2024-2025,San Bernardo,-33.65806,-70.69306,24.7,Intencional,1.2,-12,5
+2025-03-06,2024-2025,Buin,-33.68553,-70.69086,23.4,Tránsito de personas/vehículos,0.24,-12,3
+2025-03-08,2024-2025,Puente Alto,-33.62111,-70.56722,18.0,Intencional,0.01,-6,7
+2025-03-11,2024-2025,Buin,-33.73706,-70.70483,23.6,Quemas,0.01,-12,0
+2025-03-15,2024-2025,Puente Alto,-33.62416,-70.605,20.0,Tránsito de personas/vehículos,0.4,-8,6
+2025-03-18,2024-2025,Pirque,-33.69639,-70.61611,16.5,Otras,2.0,-8,2
+2025-03-19,2024-2025,Paine,-33.78822,-70.68606,22.2,Faenas agrícolas/forestales,1.0,-11,-3
+2025-03-23,2024-2025,Buin,-33.68778,-70.6975,23.9,Tránsito de personas/vehículos,0.3,-12,3
+2025-04-13,2024-2025,Puente Alto,-33.64055,-70.61639,19.6,Desconocida,1.5,-8,6
+2025-04-16,2024-2025,Pirque,-33.75111,-70.50472,5.1,Tránsito de personas/vehículos,0.35,-3,-1
+2025-04-16,2024-2025,Paine,-33.75883,-70.67952,21.2,Tránsito de personas/vehículos,0.1,-11,-1
+2025-04-18,2024-2025,Puente Alto,-33.62058,-70.55717,17.5,Intencional,1.0,-5,7
+2025-04-19,2024-2025,Paine,-33.75925,-70.67914,21.2,Intencional,0.2,-11,-1
