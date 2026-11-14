@@ -22,4 +22,4 @@ DGA (estación Pirque, vía CR2), NASA MODIS (NDVI), SRTM (relieve) y OpenStreet
 ## Uso
 
 Abrir el notebook en Google Colab y ejecutar todo. Los datos se cargan desde este repositorio.
-Para redactar el boletín con IA generativa se necesita una clave de Gemini guardada en los Secrets de Colab como `GEMINI_API_KEY`.
+El boletín se redacta con IA generativa: con Gemini si hay una clave `GEMINI_API_KEY` en los Secrets de Colab, o si no con el modelo de código abierto Qwen2.5-1.5B-Instruct, que corre en Colab sin clave.
